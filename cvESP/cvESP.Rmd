@@ -1,0 +1,206 @@
+---
+name: Andrés F. Ramírez-Mejía
+profilepic: andresSURPASS2.jpg
+position: "Becario doctoral del CONICET"
+address: "Instituto de Ecología Regional UNT-CONICET"
+headcolor: 990000
+phone: +54 3816627944
+email: "andresfeliper.mejia@gmail.com"
+twitter: felipe_arm_
+github: andres-frm
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+aboutme: "Soy un biólogo interesado en usar aproximaciones de la ecología del paisaje, ecología funcional e interacciones planta-animal, para estudiar cómo patrones espaciales regulan las respuestas o el rol ecológico de mamíferos y polinizadores. Me apasiona la naturaleza, la ciencia de datos y la programación en R."
+ 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Educación
+
+```{r educacion}
+library(tibble)
+tribble(
+  ~ `Título`, ~ Año, ~ Institución, ~ Lugar, 
+  "PhD. Ciencias Biológicas", "2018-Presente", "Universidad Nacional de Tucumán", "Tucumán, Argentina",
+  "MSc. Conservación y Uso de Biodiversidad", "2015-2017", "Pontificia Universidad Javeriana", "Bogotá, Colombia", 
+  "BSc. Biólogo", "2008-2014", "Universidad de Caldas", "Manizales, Colombia", 
+) %>% 
+  detailed_entries(what = `Título`, 
+                   when = `Año`,
+                   with = Institución,
+                   where = Lugar)
+
+```
+
+# Distinciones y becas
+
+* **2017** Orden al Mérito Académico Javeriano. MSc. en Conservación y Uso de Biodiversidad. Pontificia Universidad Javeriana. Bogotá, Colombia.
+
+* **2017** Grado CUM LAUDE. MSc. en Conservación y Uso de Biodiversidad. Pontificia Universidad Javeriana. Bogotá, Colombia
+
+* **2017** Tesis de maestría con distinción meritoria. Facultad de Estudios Ambientales y Rurales, Pontificia Universidad Javeriana. Bogotá, Colombia.
+
+* **2017** Beca doctoral otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Resolución N° 4122. Plan de tesis: Interacciones planta-animal en cultivos de arándanos (*Vaccinium corymbosum*, Ericaceae) y efectos recíprocos con el bosque nativo de Yungas. Año de inicio: 2018.
+
+
+# Subsidios de investigación
+
+```{r subsidios}
+
+tribble(
+  ~beca, ~institucion, ~proyecto, ~año, ~monto, ~lugar, 
+  "François Vuilleumier Fund for Research on Neotropical Birds", "Neotropical Ornithological Society", "Servicios ecosistémicos provistos por picaflores (Trochilidae): la polinización del arándano en el noroeste de Argentina", "2018", "$1000 US", "EEUU",
+  "Beca Aves Argentinas, de Apoyo a la Ornitología Argentina", "Aves Argentinas - Sociedad Ornitológica de la Plata", "Servicios ecosistémicos provistos por picaflores (Trochilidae): la polinización del arándano en el noroeste de Argentina", "2020", "$50000 ARS ($640 US)", "Argentina"
+) %>% 
+  detailed_entries(with = beca,
+                   what = glue::glue("Otorgado en {año} por {institucion}"),
+                   where = lugar,
+                   when = monto,
+                   why = proyecto
+                   )
+
+
+```
+
+
+# Trabajo docente
+
+```{r docente}
+tribble(
+  ~curso, ~institucion, ~nivel, ~lugar, ~año, ~comentario,
+  "Introducción al Programa R", "Universidad Nacional de Tucumán, Facultad de Ciencias Naturales e Instituto Miguel Lillo", "pregrado", "Tucumán, Argentina", 2019, "Licenciatura en Ciencias Biológicas"
+) %>% 
+  detailed_entries(
+    with = curso,
+    what = institucion,
+    where = lugar,
+    when = año,
+    why = glue::glue("Dictado a estudiantes de {nivel} de la {comentario}")
+  )
+
+```
+
+# Cursos de posgrado
+
+```{r cursos_posgrado}
+
+tribble(
+  ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
+  "Redes ecológicas", "Universidad de São Paulo", "São Paulo, Brasil", 2020, "60h", "Excelente",
+  "Ecología de la polinización", "Universidad Nacional del Comahue", "Bariloche, Argentina", 2019, "60h", "100/100",
+  "13° International Pollination Course", "Rede Brasileira de Interações Planta-Polinizador (REBIPP)", "Minas Gerais, Brasil", 2019, "98h", "100/100",
+  "Métodos estadísticos avanzados en ecología y evolución", "Facultad de Ciencias, Universidad de la República Uruguay", "Maldonado, Uruguay", 2019, "60h", "100/100",
+  "Modelos Estadísticos Avanzados Utilizando el Lenguaje R", "Universidad Nacional de Córdoba", "Córdoba Argentina", 2018, "40h", "100/100"
+) %>% 
+  detailed_entries(with = curso,
+                   what = institucion,
+                   where = lugar,
+                   when = año,
+                   why = glue::glue("Duración: {duracion}. Calificación: {nota}"))
+
+```
+
+
+# Pasantía
+
+```{r pasantia}
+tribble(
+  ~pasantia, ~institucion, ~lugar, ~año, ~duracion,
+  "Laboratorio de Palinología", "Facultad de Ciencias Naturales e instituto Migue Lillo, Universidad Nacional de Tucumán", "Tucumán, Argentina", 2018, "20h"
+  
+) %>% detailed_entries(with = pasantia,
+                       what = institucion,
+                       when = año,
+                       where = lugar,
+                       why = glue::glue("Duracion: {duracion}"))
+
+```
+
+
+
+# Grupos de investigación avalado por Colciencias (Colombia)
+
+```{r grupoI}
+
+tribble(
+  ~grupo, ~clasificacion, ~institucion, ~vinculacion, ~fechaI, ~fechaF, ~lugar,
+  "InQuiBio (Grupo integrado de investigaciones en química y biología)", "A1", "Universidad Militar Nueva granada", "Integrante", "ene 2013", "dic 2015", "Bogotá, Colombia",
+  "Ecotonos (Grupo de ecología, conservación, taxonomía y sistemática)", "C", "Universidad de los LLanos", "Integrante", "ene 2017", "presente", "Villavicencio, Colombia"
+) %>% 
+  detailed_entries(with = grupo,
+                   what = institucion,
+                   why = glue::glue("Clasificación: {clasificacion}. Vinculación: {vinculacion}."),
+                   where = lugar,
+                   when = glue::glue("{fechaI}-{fechaF}"))
+
+```
+
+
+
+# Publicaciones y presentaciones
+
+## **Artículos publicados**
+
+1. **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. (2021). [Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation](https://doi.org/10.1676/19-54) . *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
+
+2. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2020) [Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
+
+3. **Ramírez-Mejía A F**, & Sánchez F. (2016). [Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319. 
+
+4. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). Check List, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
+
+## **En revisión**
+
+1. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat. *Journal of Tropical Ecology*, JTE-21-042.
+
+## **En preparación**
+
+1. **Ramírez-Mejía A F**, Lomascolo S & Blendinger P. Hummingbirds, honeybees, and wild insect pollinators enhance fruit quality of blueberries depending on variety and farm’s spatial context
+
+## **Tesis**
+
+```{r, eval=FALSE}
+
+tribble(
+  ~año, ~titulo, ~tesis,
+  2014, "BSc", "Actividad, uso de hábitat y riqueza de mamíferos en un bosque nativo y uno reforestado con eucalipto en los Andes colombianos",
+  2017, "MSc", "Diversidad funcional, taxonómica y dispersión de semillas por murciélagos filostómidos en un paisaje antropizado: un análisis multiescala",
+  2018, "PhD", "Interacciones planta-animal en cultivos y efectos recíprocos con el bosque nativo de Yungas"
+) %>% vitae::brief_entries(with = año,
+                           what = tesis,
+                           when = glue::glue("{titulo}"))
+```
+
+**PhD**. 2018 - Presente. Interacciones planta-animal en cultivos y efectos recíprocos con el bosque nativo de Yungas. Pedro G. Blendinger, PhD; investigador independiente CONICET, profesor adjunto UNT. Silvia Lomáscolo, PhD; investigadora asistente CONICET.
+
+**MSc**. 2017. Diversidad funcional, taxonómica y dispersión de semillas por murciélagos filostómidos en un paisaje antropizado: un análisis multiescala. Asesores de tesis: Francisco Sánchez, PhD; Universidad de los Llanos, Colombia. J. Nicolás Urbina-Cardona, PhD; Pontificia Universidad Javeriana, Colombia.
+
+**BSc**. 2014. Actividad, uso de hábitat y riqueza de mamíferos en un bosque nativo y uno reforestado con eucalipto en los Andes colombianos. Asesor de tesis: Francisco Sánchez, PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
+
+
+
+## **Presentaciones orales**
+
+```{r P_orales, eval=FALSE}
+tribble(
+  ~año, ~evento, ~presentacion, ~lugar,
+  2014, "II Simposio colombiano de pequeños carnívoros. IV Congreso colombiano de zoología", "Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation", "Cartagena, Colombia",
+  2014, "III Simposio regional de biología.", "Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados", "Armenia, Colombia"
+) %>% 
+  detailed_entries(with = evento,
+                   what = presentacion,
+                   when = año,
+                   where = lugar)
+```
+
+**2014**. *Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation*. II Simposio colombiano de pequeños carnívoros. IV Congreso colombiano de zoología. Cartagena, Colombia.
+
+**2014**. *Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados*. III Simposio regional de biología. Armenia, Colombia.
+
+# Idiomas
+* Español: nativo.
+* Ingles: comunicación escrita (buena), comprensión lectora (buena), competencia oral (aceptable).
