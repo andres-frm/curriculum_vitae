@@ -10,7 +10,7 @@ twitter: felipe_arm_
 github: andres-frm
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
-aboutme: "I'm a biologist interested in using landscape and functional ecology and plant-animal interactions to study how spatial patterns modulate biological responses of mammals and pollinators. I'm very passionate about nature, data science, and R programming."
+aboutme: "I'm a biologist interested in using landscape and functional ecology and plant-animal interactions to study how spatial patterns modulate biological responses of mammals and pollinators. I'm very passionate about nature, literature, data science, and R programming."
  
 ---
 
@@ -69,19 +69,84 @@ tribble(
 ```
 
 
+
+
+# Publications and oral presentations
+
+## **Published articles**
+
+1. **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. (2021). [Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation](https://doi.org/10.1676/19-54) . *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
+
+2. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2020) [Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
+
+3. **Ramírez-Mejía A F**, & Sánchez F. (2016). [Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319. 
+
+4. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). Check List, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
+
+## **Under review**
+
+1. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat. *Journal of Tropical Ecology*, JTE-21-042.
+
+## **In preparation**
+
+1. **Ramírez-Mejía A F**, Lomascolo S & Blendinger P. Hummingbirds, honeybees, and wild insect pollinators enhance fruit quality of blueberries depending on variety and farm’s spatial context
+
+2. Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. Nutrient balance and energy-acquisition  effectiveness: do birds adjust their fruit diet to achieve intake targets?
+
+## **Theses**
+
+```{r, eval=FALSE}
+
+tribble(
+  ~año, ~titulo, ~tesis,
+  2014, "BSc", "Actividad, uso de hábitat y riqueza de mamíferos en un bosque nativo y uno reforestado con eucalipto en los Andes colombianos",
+  2017, "MSc", "Diversidad funcional, taxonómica y dispersión de semillas por murciélagos filostómidos en un paisaje antropizado: un análisis multiescala",
+  2018, "PhD", "Interacciones planta-animal en cultivos y efectos recíprocos con el bosque nativo de Yungas"
+) %>% vitae::brief_entries(with = año,
+                           what = tesis,
+                           when = glue::glue("{titulo}"))
+```
+
+**PhD**. 2018 - Present. Plant-animal interactions in crops and reciprocal effects with the Yungas forest. Thesis advisors: Pedro G. Blendinger, PhD; independent research CONICET, assistant professor UNT. Silvia Lomáscolo, PhD; assistant researcher CONICET.
+
+**MSc**. 2017. Functional and taxonomic diversity, and seed dispersion by phyllostomid bats in an anthropogenic landscape: a scale-dependent analysis. Thesis advisors: Francisco Sánchez, PhD; Universidad de los Llanos, Colombia. J. Nicolás Urbina-Cardona, PhD; Pontificia Universidad Javeriana, Colombia.
+
+**BSc**. 2014. Activity pattern, habitat use, and mammals richness in native and reforested forests at the Colombian Andes. Thesis advisor: Francisco Sánchez, PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
+
+
+
+## **Oral Presentations**
+
+```{r P_orales, eval=FALSE}
+tribble(
+  ~año, ~evento, ~presentacion, ~lugar,
+  2014, "II Simposio colombiano de pequeños carnívoros. IV Congreso colombiano de zoología", "Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation", "Cartagena, Colombia",
+  2014, "III Simposio regional de biología.", "Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados", "Armenia, Colombia"
+) %>% 
+  detailed_entries(with = evento,
+                   what = presentacion,
+                   when = año,
+                   where = lugar)
+```
+
+**2014**. *Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation*. II Symposium of small carnivores. IV Colombian congres fo zoology. Cartagena, Colombia.
+
+**2014**. *Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados*. III Symposium of regional biology. Armenia, Colombia.
+
 # Teaching
 
 ```{r docente}
 tribble(
   ~curso, ~institucion, ~nivel, ~lugar, ~año, ~comentario,
-  "Introduction to R programming", "Universidad Nacional de Tucumán, Facultad de Ciencias Naturales e Instituto Miguel Lillo", "Undergraduate", "Tucumán, Argentina", 2019, "Biological Science"
+  "Introduction to R programming", "Universidad Nacional de Tucumán, Facultad de Ciencias Naturales e Instituto Miguel Lillo", "Undergraduate", "Tucumán, Argentina", 2019, "Biological Science",
+  "Data Clinic", "Universidad Nacional de Tucumán, Facultad de Ciencias Naturales e Instituto Miguel Lillo", "PhD", "Tucumán, Argentina", 2021, "Biological Science, Agronomy and Biotechnology"
 ) %>% 
   detailed_entries(
     with = curso,
     what = institucion,
     where = lugar,
     when = año,
-    why = glue::glue("Offered to {comentario} students. Level: {nivel}")
+    why = glue::glue("Offered to {comentario} students. Level: {nivel}.")
   )
 
 ```
@@ -140,68 +205,6 @@ tribble(
                    when = glue::glue("{fechaI}-{fechaF}"))
 
 ```
-classification 
-
-
-# Publications and oral presentations
-
-## **Published articles**
-
-1. **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. (2021). [Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation](https://doi.org/10.1676/19-54) . *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
-
-2. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2020) [Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
-
-3. **Ramírez-Mejía A F**, & Sánchez F. (2016). [Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319. 
-
-4. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). Check List, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
-
-## **Under review**
-
-1. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat. *Journal of Tropical Ecology*, JTE-21-042.
-
-## **In preparation**
-
-1. **Ramírez-Mejía A F**, Lomascolo S & Blendinger P. Hummingbirds, honeybees, and wild insect pollinators enhance fruit quality of blueberries depending on variety and farm’s spatial context
-
-## **Theses**
-
-```{r, eval=FALSE}
-
-tribble(
-  ~año, ~titulo, ~tesis,
-  2014, "BSc", "Actividad, uso de hábitat y riqueza de mamíferos en un bosque nativo y uno reforestado con eucalipto en los Andes colombianos",
-  2017, "MSc", "Diversidad funcional, taxonómica y dispersión de semillas por murciélagos filostómidos en un paisaje antropizado: un análisis multiescala",
-  2018, "PhD", "Interacciones planta-animal en cultivos y efectos recíprocos con el bosque nativo de Yungas"
-) %>% vitae::brief_entries(with = año,
-                           what = tesis,
-                           when = glue::glue("{titulo}"))
-```
-
-**PhD**. 2018 - Present. Plant-animal interactions in crops and reciprocal effects with the Yungas forest. Thesis advisors: Pedro G. Blendinger, PhD; independent research CONICET, assistant professor UNT. Silvia Lomáscolo, PhD; assistant researcher CONICET.
-
-**MSc**. 2017. Functional and taxonomic diversity, and seed dispersion by phyllostomid bats in an anthropogenic landscape: a scale-dependent analysis. Thesis advisors: Francisco Sánchez, PhD; Universidad de los Llanos, Colombia. J. Nicolás Urbina-Cardona, PhD; Pontificia Universidad Javeriana, Colombia.
-
-**BSc**. 2014. Activity pattern, habitat use, and mammals richness in native and reforested forests at the Colombian Andes. Thesis advisor: Francisco Sánchez, PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
-
-
-
-## **Oral Presentations**
-
-```{r P_orales, eval=FALSE}
-tribble(
-  ~año, ~evento, ~presentacion, ~lugar,
-  2014, "II Simposio colombiano de pequeños carnívoros. IV Congreso colombiano de zoología", "Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation", "Cartagena, Colombia",
-  2014, "III Simposio regional de biología.", "Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados", "Armenia, Colombia"
-) %>% 
-  detailed_entries(with = evento,
-                   what = presentacion,
-                   when = año,
-                   where = lugar)
-```
-
-**2014**. *Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation*. II Symposium of small carnivores. IV Colombian congres fo zoology. Cartagena, Colombia.
-
-**2014**. *Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados*. III Symposium of regional biology. Armenia, Colombia.
 
 # Languages
 * Spanish: mother language.
