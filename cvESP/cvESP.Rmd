@@ -115,6 +115,7 @@ tribble(
 ```{r P_orales, eval=FALSE}
 tribble(
   ~año, ~evento, ~presentacion, ~lugar,
+  2021, "XXIX Reunión argentina de ecología", "La polinización del arándano en el NOA ¿son importantes las especies silvestres?", "Tucumán, Argentina",
   2014, "II Simposio colombiano de pequeños carnívoros. IV Congreso colombiano de zoología", "Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation", "Cartagena, Colombia",
   2014, "III Simposio regional de biología.", "Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados", "Armenia, Colombia"
 ) %>% 
@@ -123,6 +124,8 @@ tribble(
                    when = año,
                    where = lugar)
 ```
+
+**2021**. *La polinización del arándano en el NOA ¿son importantes las especies silvestres?*. XXIX Reunión argentina de ecología. Tucumán, Argentina.
 
 **2014**. *Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation*. II Simposio colombiano de pequeños carnívoros. IV Congreso colombiano de zoología. Cartagena, Colombia.
 

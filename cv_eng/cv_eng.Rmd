@@ -129,6 +129,8 @@ tribble(
                    where = lugar)
 ```
 
+**2021**. *Blueberry pollination at the NOA, are wild species important?*. Tucumán, Argentina.
+
 **2014**. *Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation*. II Symposium of small carnivores. IV Colombian congres fo zoology. Cartagena, Colombia.
 
 **2014**. *Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados*. III Symposium of regional biology. Armenia, Colombia.
