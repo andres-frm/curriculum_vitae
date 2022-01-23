@@ -70,7 +70,7 @@ tribble(
 
 ## **Artículos publicados**
 
-1. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat. *Journal of Tropical Ecology*, ***Aceptado***
+1. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. [The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: doi:10.1017/S026646742100047X
 
 2. **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. (2021). [Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation](https://doi.org/10.1676/19-54) . *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
 
@@ -80,7 +80,7 @@ tribble(
 
 5. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
 
-## **En preparación**
+## **En revisión**
 
 1. **Ramírez-Mejía A F**, Lomascolo S & Blendinger P. Hummingbirds, honeybees, and wild insect pollinators enhance fruit quality of blueberries depending on variety and farm’s spatial context
 
@@ -153,6 +153,8 @@ tribble(
 
 tribble(
   ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
+  "Modelos y datos en Ecología", "Universidad Nacional de Comahue", "Bariloche, Argenttina (virtual)", 2021, "40h", "9/10",
+  "Herramientas estadísticas para el abordaje de las métricas de género: una mirada desde la teoría de grafos y de sistemas", "Universidad Nacional de Tucumán", "Tucumán, Argentina", 2021, "40h", "100/100",
   "Redes ecológicas", "Universidad de São Paulo", "São Paulo, Brasil", 2020, "60h", "Excelente",
   "Ecología de la polinización", "Universidad Nacional del Comahue", "Bariloche, Argentina", 2019, "60h", "100/100",
   "13° International Pollination Course", "Rede Brasileira de Interações Planta-Polinizador (REBIPP)", "Minas Gerais, Brasil", 2019, "98h", "100/100",
