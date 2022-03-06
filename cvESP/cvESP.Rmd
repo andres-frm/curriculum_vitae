@@ -82,9 +82,12 @@ tribble(
 
 ## **En revisión**
 
-1. **Ramírez-Mejía A F**, Lomascolo S & Blendinger P. Hummingbirds, honeybees, and wild insect pollinators enhance fruit quality of blueberries depending on variety and farm’s spatial context
+1. **Ramírez-Mejía A F**, Lomascolo S & Blendinger P. Hummingbirds, honeybees, and wild insect pollinators enhance fruit quality of blueberries depending on variety and farm’s spatial context. *Agriculture Ecosystems and Environment*
 
-2. Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. Nutrient balance and energy-acquisition  effectiveness: do birds adjust their fruit diet to achieve intake targets?
+2. Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. Nutrient balance and energy-acquisition  effectiveness: do birds adjust their fruit diet to achieve intake targets? *Functional Ecology*
+
+## **En prepración**
+1. **Ramírez-Mejía A F**, Dos Santos D A, Chacoff N, Lomáscolo S & Blendinger P. Integrating fuzzy logic and pollination ecology for better crop production: a study case assessing pollination service in blueberry crops
 
 ## **Tesis**
 

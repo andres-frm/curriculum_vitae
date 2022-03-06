@@ -46,7 +46,7 @@ tribble(
 
 * **2017** Master degree thesis with honorary mention. Master in Conservation and Use of Biodiversity at the Pontificia Universidad Javeriana. Bogotá, Colombia.
 
-* **2017** Doctoral fellowship granted by Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Resolution N° 4122. Thesis: Interacciones planta-animal en cultivos de arándanos (*Vaccinium corymbosum*, Ericaceae) y efectos recíprocos con el bosque nativo de Yungas. 
+* **2017** Doctoral fellowship granted by National Scientific and Technical Research Council - Argentina (CONICET). Resolution N° 4122. Thesis: Interacciones planta-animal en cultivos de arándanos (*Vaccinium corymbosum*, Ericaceae) y efectos recíprocos con el bosque nativo de Yungas. 
 
 
 # Research grants
@@ -88,9 +88,12 @@ tribble(
 
 ## **Under review**
 
-1. **Ramírez-Mejía A F**, Lomascolo S & Blendinger P. Hummingbirds, honeybees, and wild insect pollinators enhance fruit quality of blueberries depending on variety and farm’s spatial context. 
+1. **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. Hummingbirds, honeybees, and wild insect pollinators enhance fruit quality of blueberries depending on variety and farm’s spatial context. *Agriculture Ecosystems and Environment*
 
-2. Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. Nutrient balance and energy-acquisition  effectiveness: do birds adjust their fruit diet to achieve intake targets?
+2. Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. Nutrient balance and energy-acquisition  effectiveness: do birds adjust their fruit diet to achieve intake targets? *Functional Ecology*
+
+## **In preparation**
+1. **Ramírez-Mejía A F**, Dos Santos D A, Chacoff N, Lomáscolo S & Blendinger P. Integrating fuzzy logic and pollination ecology for better crop production: a study case assessing pollination service in blueberry crops
 
 ## **Theses**
 
