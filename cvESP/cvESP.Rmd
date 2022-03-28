@@ -89,6 +89,8 @@ tribble(
 ## **En prepración**
 1. **Ramírez-Mejía A F**, Dos Santos D A, Chacoff N, Lomáscolo S & Blendinger P. Integrating fuzzy logic and pollination ecology for better crop production: a study case assessing pollination service in blueberry crops
 
+2. **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. Individual and population effectiveness of hummingbirds, wild and managed insect pollinating blueberry crops.
+
 ## **Tesis**
 
 ```{r, eval=FALSE}
