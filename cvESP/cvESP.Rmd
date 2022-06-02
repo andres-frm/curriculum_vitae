@@ -161,6 +161,7 @@ tribble(
 
 tribble(
   ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
+  "Ciencia de datos con Python", "Universidad Nacional de la Patagonia Austral", "Argentina (online)", 2022, "40h", "10/10",
   "Modelos y datos en Ecología", "Universidad Nacional de Comahue", "Bariloche, Argenttina (virtual)", 2021, "40h", "9/10",
   "Herramientas estadísticas para el abordaje de las métricas de género: una mirada desde la teoría de grafos y de sistemas", "Universidad Nacional de Tucumán", "Tucumán, Argentina", 2021, "40h", "100/100",
   "Redes ecológicas", "Universidad de São Paulo", "São Paulo, Brasil", 2020, "60h", "Excelente",
