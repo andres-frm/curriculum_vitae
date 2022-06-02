@@ -97,6 +97,8 @@ tribble(
 
 2. **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. Individual and population effectiveness of hummingbirds, wild and managed insect pollinating blueberry crops.
 
+3. **Ramírez-Mejía A F**, Lomáscolo S, Chacoff N, Blendinger P. The step by step of pollination service process in blueberry crops.
+
 
 ## **Theses**
 
@@ -164,8 +166,9 @@ tribble(
 
 tribble(
   ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
-  "Models and data in ecology", "Universidad Nacional de Comahue", "Bariloche, Argenttina (virtual)", 2021, "40h", "9/10",
-  "Herramientas estadísticas para el abordaje de las métricas de género: una mirada desde la teoría de grafos y de sistemas", "Universidad Nacional de Tucumán", "Tucumán, Argentina", 2021, "40h", "100/100",
+  "Data science with Python", "Universidad Nacional de la Patagonia Austral", "Argentina (online)", 2022, "40h", "10/10",
+  "Models and data in ecology", "Universidad Nacional de Comahue", "Bariloche, Argenttina (online)", 2021, "40h", "9/10",
+  "Statistical tools for addressing gender metrics: a look from graph and systems theory", "Universidad Nacional de Tucumán", "Tucumán, Argentina", 2021, "40h", "100/100",
   "Ecological networks", "Universidad de São Paulo", "São Paulo, Brasil", 2020, "60h", "Excellent",
   "Pollination Ecology", "Universidad Nacional del Comahue", "Bariloche, Argentina", 2019, "60h", "100/100",
   "13° International Pollination Course", "Brazilian Network of Plant-Pollination Research (REBIPP)", "Minas Gerais, Brasil", 2019, "98h", "100/100",

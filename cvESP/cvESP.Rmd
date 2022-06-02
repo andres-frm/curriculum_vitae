@@ -91,6 +91,9 @@ tribble(
 
 2. **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. Individual and population effectiveness of hummingbirds, wild and managed insect pollinating blueberry crops.
 
+3. **Ramírez-Mejía A F**, Lomáscolo S, Chacoff N, Blendinger P. The step by step of pollination service process in blueberry crops.
+
+
 ## **Tesis**
 
 ```{r, eval=FALSE}
