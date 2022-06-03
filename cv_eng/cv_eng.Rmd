@@ -221,3 +221,6 @@ tribble(
 # Languages
 * Spanish: mother language.
 * English: written (good), reading (good), spoken (acceptable).
+
+# Driver license
+* No. 1053795821. Validity: 03-06-2028. Category: B1. Issued: Colombia (03-06-2018)
