@@ -2,15 +2,15 @@
 name: Andrés F. Ramírez-Mejía
 profilepic: andresSURPASS2.jpg
 position: "PhD fellow at CONICET"
-address: "Institute of Regional Ecology UNT-CONICET"
-headcolor: 008000
-phone: +54 3816627944
-email: "andresfeliper.mejia@gmail.com"
+address: Institute of Regional Ecology UNT-CONICET
+headcolor: "414141"
+phone: +54 9 3816627944
+email: andresfeliper.mejia@gmail.com
 twitter: felipe_arm_
 github: andres-frm
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
-aboutme: "I'm a biologist interested in using landscape and functional ecology and plant-animal interactions to study how spatial patterns modulate biological responses of mammals and pollinators. I'm very passionate about nature, literature, data science, and R programming."
+aboutme: I am a biologist interested in using landscape and functional ecology and plant-animal interactions to study how spatial patterns modulate biological responses of mammals and pollinators. I'm passionate about nature, literature, data science, and R programming.
  
 ---
 
@@ -46,7 +46,7 @@ tribble(
 
 * **2017** Master degree thesis with honorary mention. Master in Conservation and Use of Biodiversity at the Pontificia Universidad Javeriana. Bogotá, Colombia.
 
-* **2017** Doctoral fellowship granted by National Scientific and Technical Research Council - Argentina (CONICET). Resolution N° 4122. Thesis: Interacciones planta-animal en cultivos de arándanos (*Vaccinium corymbosum*, Ericaceae) y efectos recíprocos con el bosque nativo de Yungas. 
+* **2017** Doctoral fellowship granted by National Scientific and Technical Research Council - Argentina (CONICET). Resolution N° 4122. Thesis: Plant-animal interactions in blueberry crops (*Vaccinium corymbosum*, Ericaceae) and reciprocal effects with the Yungas native forest. 
 
 
 # Research grants
@@ -55,8 +55,8 @@ tribble(
 
 tribble(
   ~beca, ~institucion, ~proyecto, ~año, ~monto, ~lugar, 
-  "François Vuilleumier Fund for Research on Neotropical Birds", "Neotropical Ornithological Society", "Servicios ecosistémicos provistos por picaflores (Trochilidae): la polinización del arándano en el noroeste de Argentina", "2018", "$1000 US", "EEUU",
-  "Beca Aves Argentinas, de Apoyo a la Ornitología Argentina", "Aves Argentinas - Sociedad Ornitológica de la Plata", "Servicios ecosistémicos provistos por picaflores (Trochilidae): la polinización del arándano en el noroeste de Argentina", "2020", "$50000 ARS ($640 US)", "Argentina"
+  "Research grant Aves Argentinas to support Argentinian ornithology", "Ornithological Society of La Plata", "Ecosystem services provided by hummingbirds (Trochilidae): the pollination of blueberry in the Argentinian northeastern", "2020", "$50000 ARS ($640 US)", "Argentina",
+  "François Vuilleumier Fund for Research on Neotropical Birds", "Neotropical Ornithological Society", "Ecosystem services provided by hummingbirds (Trochilidae): the pollination of blueberry in the Argentinian northeastern", "2018", "$1000 US", "EEUU"
 ) %>% 
   detailed_entries(with = beca,
                    what = glue::glue("Awarded in {año} by {institucion}"),
@@ -75,9 +75,9 @@ tribble(
 
 ## **Published articles**
 
-1. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. [The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: doi:10.1017/S026646742100047X
+1. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2022) [The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: doi:10.1017/S026646742100047X
 
-2. **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. (2021). [Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation](https://doi.org/10.1676/19-54) . *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
+2. **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. (2021). [Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation](https://doi.org/10.1676/19-54). *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
 
 3. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2020) [Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
 
@@ -106,19 +106,19 @@ tribble(
 
 tribble(
   ~año, ~titulo, ~tesis,
-  2014, "BSc", "Actividad, uso de hábitat y riqueza de mamíferos en un bosque nativo y uno reforestado con eucalipto en los Andes colombianos",
-  2017, "MSc", "Diversidad funcional, taxonómica y dispersión de semillas por murciélagos filostómidos en un paisaje antropizado: un análisis multiescala",
-  2018, "PhD", "Interacciones planta-animal en cultivos y efectos recíprocos con el bosque nativo de Yungas"
+  2014, "BSc", "Activity, habitat use and species richness of mammals in native forests and eucalyptus plantations in the Colombian Andes",
+  2017, "MSc", "Seed dispersion and functional diversity of phyllostomid bats in an anthropogenic landscape: a multi-scale approach",
+  2018, "PhD", "Plant-animal interactions in crops and reciprocal effects with the Yungas native forest"
 ) %>% vitae::brief_entries(with = año,
                            what = tesis,
                            when = glue::glue("{titulo}"))
 ```
 
-**PhD**. 2018 - Present. Plant-animal interactions in crops and reciprocal effects with the Yungas forest. Thesis advisors: Pedro G. Blendinger, PhD; independent research CONICET, assistant professor UNT. Silvia Lomáscolo, PhD; assistant researcher CONICET.
+**PhD**. 2018 - Present. Plant-animal interactions in crops and reciprocal effects with the Yungas native forest. Thesis advisors: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; independent research CONICET, assistant professor UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; assistant researcher CONICET.
 
-**MSc**. 2017. Functional and taxonomic diversity, and seed dispersion by phyllostomid bats in an anthropogenic landscape: a scale-dependent analysis. Thesis advisors: Francisco Sánchez, PhD; Universidad de los Llanos, Colombia. J. Nicolás Urbina-Cardona, PhD; Pontificia Universidad Javeriana, Colombia.
+**MSc**. 2017. Seed dispersion and functional diversity of phyllostomid bats in an anthropogenic landscape: a multi-scale approach. Thesis advisors: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad de los Llanos, Colombia. [J. Nicolás Urbina-Cardona](https://scholar.google.com/citations?user=uMBjaFgAAAAJ&hl=en), PhD; Pontificia Universidad Javeriana, Colombia.
 
-**BSc**. 2014. Activity pattern, habitat use, and mammals richness in native and reforested forests at the Colombian Andes. Thesis advisor: Francisco Sánchez, PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
+**BSc**. 2014. Activity pattern, habitat use, and mammals richness in native and reforested forests at the Colombian Andes. Thesis advisor: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
 
 
 
@@ -142,13 +142,13 @@ tribble(
 
 **2014**. *Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados*. III Symposium of regional biology. Armenia, Colombia.
 
-# Teaching
+# Teaching experience
 
 ```{r docente}
 tribble(
   ~curso, ~institucion, ~nivel, ~lugar, ~año, ~comentario,
-  "Introduction to R programming", "Universidad Nacional de Tucumán, Facultad de Ciencias Naturales e Instituto Miguel Lillo", "Undergraduate", "Tucumán, Argentina", 2019, "Biological Science",
-  "Data Clinic", "Universidad Nacional de Tucumán, Facultad de Ciencias Naturales e Instituto Miguel Lillo", "PhD", "Tucumán, Argentina", 2021, "Biological Science, Agronomy and Biotechnology"
+  "Data Clinic", "National University of Tucumán, Faculty of Natural Science and Miguel Lillo Institute", "PhD", "Tucumán, Argentina", 2021, "Biological Science, Agronomy and Biotechnology",
+  "Introduction to R programming", "National University of Tucumán, Faculty of Natural Science and Miguel Lillo Institute", "Undergraduate", "Tucumán, Argentina", 2019, "Biological Science"
 ) %>% 
   detailed_entries(
     with = curso,
@@ -166,14 +166,14 @@ tribble(
 
 tribble(
   ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
-  "Data science with Python", "Universidad Nacional de la Patagonia Austral", "Argentina (online)", 2022, "40h", "10/10",
-  "Models and data in ecology", "Universidad Nacional de Comahue", "Bariloche, Argenttina (online)", 2021, "40h", "9/10",
-  "Statistical tools for addressing gender metrics: a look from graph and systems theory", "Universidad Nacional de Tucumán", "Tucumán, Argentina", 2021, "40h", "100/100",
-  "Ecological networks", "Universidad de São Paulo", "São Paulo, Brasil", 2020, "60h", "Excellent",
-  "Pollination Ecology", "Universidad Nacional del Comahue", "Bariloche, Argentina", 2019, "60h", "100/100",
-  "13° International Pollination Course", "Brazilian Network of Plant-Pollination Research (REBIPP)", "Minas Gerais, Brasil", 2019, "98h", "100/100",
-  "Advanced statistical methods in ecology and evolution", "Facultad de Ciencias, Universidad de la República Uruguay", "Maldonado, Uruguay", 2019, "60h", "100/100",
-  "Advanced statistical models using programming language R", "Universidad Nacional de Córdoba", "Córdoba Argentina", 2018, "40h", "100/100"
+  "Data science with Python", "National University of Southern Patagonia", "Argentina (online)", 2022, "40h", "10/10",
+  "Models and data in ecology", "National University of Comahue", "Bariloche, Argenttina (online)", 2021, "40h", "9/10",
+  "Statistical tools for addressing gender metrics: a look from graph and systems theory", "National University of Tucumán", "Tucumán, Argentina", 2021, "40h", "100/100",
+  "Ecological networks", "University of São Paulo", "São Paulo, Brasil", 2020, "60h", "Excellent",
+  "Pollination Ecology", "National University of Comahue", "Bariloche, Argentina", 2019, "60h", "100/100",
+  "13° International Pollination Course", "Federal University of Jequitinhonha Valleys", "Minas Gerais, Brasil", 2019, "98h", "100/100",
+  "Advanced statistical methods in ecology and evolution", "University of the Uruguay Republic", "Maldonado, Uruguay", 2019, "60h", "100/100",
+  "Advanced statistical models using programming language R", "National University of Córdoba", "Córdoba Argentina", 2018, "40h", "100/100"
 ) %>% 
   detailed_entries(with = curso,
                    what = institucion,
@@ -189,7 +189,7 @@ tribble(
 ```{r pasantia}
 tribble(
   ~pasantia, ~institucion, ~lugar, ~año, ~duracion,
-  "Laboratory of Palynology", "Facultad de Ciencias Naturales e instituto Migue Lillo, Universidad Nacional de Tucumán", "Tucumán, Argentina", 2018, "20h"
+  "Laboratory of Palynology", "National University of Tucumán, Faculty of Natural Science and Miguel Lillo Institute", "Tucumán, Argentina", 2018, "20h"
   
 ) %>% detailed_entries(with = pasantia,
                        what = institucion,
@@ -207,8 +207,8 @@ tribble(
 
 tribble(
   ~grupo, ~clasificacion, ~institucion, ~vinculacion, ~fechaI, ~fechaF, ~lugar,
-  "InQuiBio (Grupo integrado de investigaciones en química y biología)", "A1", "Universidad Militar Nueva granada", "Integrante", "Jan 2013", "Dec 2015", "Bogotá, Colombia",
-  "Ecotonos (Grupo de ecología, conservación, taxonomía y sistemática)", "C", "Universidad de los LLanos", "Integrante", "Jan 2017", "Present", "Villavicencio, Colombia"
+  "Ecotonos (Research group in ecology, conservation, taxonomy and systematics)", "C", "University of LLanos", "Active member", "Jan 2017", "Present", "Villavicencio, Colombia",
+  "InQuiBio (An integrated research group in chemistry and biology)", "A1", "Military University Nueva granada", "Active member", "Jan 2013", "Dec 2015", "Bogotá, Colombia"
 ) %>% 
   detailed_entries(with = grupo,
                    what = institucion,
@@ -219,8 +219,8 @@ tribble(
 ```
 
 # Languages
-* Spanish: mother language.
-* English: written (good), reading (good), spoken (acceptable).
+* Spanish.
+* English.
 
 # Driver license
-* No. 1053795821. Validity: 03-06-2028. Category: B1. Issued: Colombia (03-06-2018)
+* No. 1053795821. Validity: 03-06-2028. Category: B1. Issued: Colombia (03-06-2018).
