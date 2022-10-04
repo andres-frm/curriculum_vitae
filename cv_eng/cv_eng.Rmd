@@ -166,6 +166,7 @@ tribble(
 
 tribble(
   ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
+    'Ecosystem services: concepts, tools and perspectives', 'Universidad Nacional de Cuyo', 'Mendoza, Argentina', 2022, '45h', '10/10',
   "Data science with Python", "National University of Southern Patagonia", "Argentina (online)", 2022, "40h", "10/10",
   "Models and data in ecology", "National University of Comahue", "Bariloche, Argenttina (online)", 2021, "40h", "9/10",
   "Statistical tools for addressing gender metrics: a look from graph and systems theory", "National University of Tucumán", "Tucumán, Argentina", 2021, "40h", "100/100",
