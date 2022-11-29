@@ -70,24 +70,23 @@ tribble(
 
 ## **Artículos publicados**
 
-1. Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. (2022) [Nutrient balance and energy-acquisition  effectiveness: do birds adjust their fruit diet to achieve intake targets?](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
+1. **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. (2023) [Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm’s spatial context](https://doi.org/10.1016/j.agee.2022.108229). *Agriculture Ecosystems and Environment*. DOI: https://doi.org/10.1016/j.agee.2022.108229
 
-2. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2022). [The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: doi:10.1017/S026646742100047X
+2. Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. (2022) [Nutrient balance and energy-acquisition  effectiveness: do birds adjust their fruit diet to achieve intake targets?](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
 
-3. **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. (2021). [Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation](https://doi.org/10.1676/19-54) . *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
+3. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2022). [The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: doi:10.1017/S026646742100047X
 
-4. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2020) [Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
+4. **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. (2021). [Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation](https://doi.org/10.1676/19-54) . *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
 
-5. **Ramírez-Mejía A F**, & Sánchez F. (2016). [Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319. 
+5. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2020) [Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
 
-6. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
+6. **Ramírez-Mejía A F**, & Sánchez F. (2016). [Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319. 
 
-## **En revisión**
+7. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
 
-1. **Ramírez-Mejía A F**, Lomascolo S & Blendinger P. Hummingbirds, honeybees, and wild insect pollinators enhance fruit quality of blueberries depending on variety and farm’s spatial context. *Agriculture Ecosystems and Environment*. **Segunda ronda de revisión**
 
 ## **En prepración**
-1. **Ramírez-Mejía A F**, Dos Santos D A, Chacoff N, Lomáscolo S & Blendinger P. Optimal pollination thresholds to maximize blueberry production.
+1. **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S & Blendinger P. Optimal pollination thresholds to maximize blueberry production.
 
 2. **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. Individual and population effectiveness of hummingbirds, wild and managed insect pollinating blueberry crops.
 
