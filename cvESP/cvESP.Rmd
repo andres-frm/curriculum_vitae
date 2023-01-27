@@ -90,7 +90,7 @@ tribble(
 
 2. **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. Individual and population effectiveness of hummingbirds, wild and managed insect pollinating blueberry crops.
 
-3. **Ramírez-Mejía A F**, Lomáscolo S, Chacoff N, Blendinger P. The step by step of pollination service process in blueberry crops.
+3. **Ramírez-Mejía A F**, Pedro G. Blendinger, Ben Woodcock, Daniel Morton, Kayna Agostini, Lorena Escobar, Lorena Vieli, Maureen Murua, Patrícia N. Silva, Reto Schmucki, Silvia L. Lomáscolo & Natacha Chacoff. The step by step of pollination service in blueberry crops.
 
 
 ## **Tesis**
@@ -160,6 +160,7 @@ tribble(
 
 tribble(
   ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
+  'Introducción a los métodos estadísticos bayesianos en ecología', 'Universidad de Buenos Aires', 'Buenos Aires, Argentina', 2022, '45h', '10/10',
   'Servicios ecosistémicos: conceptos, herramientas y desafíos', 'Universidad Nacional de Cuyo', 'Mendoza, Argentina', 2022, '45h', '10/10',
   "Ciencia de datos con Python", "Universidad Nacional de la Patagonia Austral", "Argentina (online)", 2022, "40h", "10/10",
   "Modelos y datos en Ecología", "Universidad Nacional de Comahue", "Bariloche, Argenttina (virtual)", 2021, "40h", "9/10",

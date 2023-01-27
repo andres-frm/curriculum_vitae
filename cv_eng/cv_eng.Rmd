@@ -91,11 +91,12 @@ tribble(
 
 
 ## **In preparation**
-1. **Ramírez-Mejía A F**, Dos Santos D A, Chacoff N, Lomáscolo S & Blendinger P. Integrating fuzzy logic and pollination ecology for better crop production: a study case assessing pollination service in blueberry crops.
+1. **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S & Blendinger P. Optimal pollination thresholds to maximize blueberry production
+.
 
 2. **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. Individual and population effectiveness of hummingbirds, wild and managed insect pollinating blueberry crops.
 
-3. **Ramírez-Mejía A F**, Lomáscolo S, Chacoff N, Blendinger P. The step by step of pollination service process in blueberry crops.
+3. **Ramírez-Mejía A F**, Pedro G. Blendinger, Ben Woodcock, Daniel Morton, Kayna Agostini, Lorena Escobar, Lorena Vieli, Maureen Murua, Patrícia N. Silva, Reto Schmucki, Silvia L. Lomáscolo & Natacha Chacoff. The step by step of pollination service process in blueberry crops.
 
 
 ## **Theses**
@@ -164,6 +165,7 @@ tribble(
 
 tribble(
   ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
+  'Introduction to Bayesian statistics methos in ecology', 'Universidad de Buenos Aires', 'Buenos Aires, Argentina', 2022, '45h', '10/10',
     'Ecosystem services: concepts, tools and perspectives', 'Universidad Nacional de Cuyo', 'Mendoza, Argentina', 2022, '45h', '10/10',
   "Data science with Python", "National University of Southern Patagonia", "Argentina (online)", 2022, "40h", "10/10",
   "Models and data in ecology", "National University of Comahue", "Bariloche, Argenttina (online)", 2021, "40h", "9/10",
