@@ -1,7 +1,7 @@
 ---
 name: Andrés F. Ramírez-Mejía
 profilepic: andresSURPASS2.jpg
-position: "Postdovtoral researcher at CONICET"
+position: "Postdoctoral researcher at CONICET"
 address: Institute of Regional Ecology UNT-CONICET
 headcolor: "414141"
 phone: +54 9 3816627944
