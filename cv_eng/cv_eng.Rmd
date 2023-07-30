@@ -1,7 +1,7 @@
 ---
 name: Andrés F. Ramírez-Mejía
 profilepic: andresSURPASS2.jpg
-position: "PhD fellow at CONICET"
+position: "Postdovtoral researcher at CONICET"
 address: Institute of Regional Ecology UNT-CONICET
 headcolor: "414141"
 phone: +54 9 3816627944
@@ -10,7 +10,7 @@ twitter: felipe_arm_
 github: andres-frm
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
-aboutme: I am a biologist interested in using landscape and functional ecology and plant-animal interactions to study how spatial patterns modulate biological responses of mammals and pollinators. I'm passionate about nature, literature, data science, and R programming.
+aboutme: I am currently investigating the patterns and mechanisms that determine the contribution of pollinators to blueberry production in northwestern Argentina. I seek to understand the effects on different productive metrics of the crop, detect optimal pollination thresholds, and evaluate the role played by the spatial context in regulating the pollination service. I am passionate about nature, literature, data analysis, and R programming.
  
 ---
 
@@ -27,7 +27,7 @@ library(vitae)
 library(tibble)
 tribble(
   ~ `Título`, ~ Año, ~ Institución, ~ Lugar, 
-  "PhD. Biological science", "2018-Present", "Universidad Nacional de Tucumán", "Tucumán, Argentina",
+  "PhD. Biological science", "2018-2023", "Universidad Nacional de Tucumán", "Tucumán, Argentina",
   "MSc. Conservation and Use of Biodiversity", "2015-2017", "Pontificia Universidad Javeriana", "Bogotá, Colombia", 
   "BSc. Biologist", "2008-2014", "Universidad de Caldas", "Manizales, Colombia", 
 ) %>% 
@@ -40,13 +40,16 @@ tribble(
 
 # Awards and distinctions
 
+* **2023** Postdoctoral fellowship granted by National Scientific and Technical Research Council - Argentina (CONICET). Resolution. Resolution: RESOL-2023-1026-APN-DIR#CONICET
+
+* **2017** Doctoral fellowship granted by National Scientific and Technical Research Council - Argentina (CONICET). Resolution N° 4122. Thesis: Plant-animal interactions in blueberry crops (*Vaccinium corymbosum*, Ericaceae) and reciprocal effects with the Yungas native forest. 
+
 * **2017** Academic merit award during studies of master degree, at the Pontificia Universidad Javeriana. Bogotá, Colombia.
 
 * **2017** Graduated with honors CUM LAUDE. Master in Conservation and Use of Biodiversity at the Pontificia Universidad Javeriana. Pontificia Universidad Javeriana. Bogotá, Colombia
 
 * **2017** Master degree thesis with honorary mention. Master in Conservation and Use of Biodiversity at the Pontificia Universidad Javeriana. Bogotá, Colombia.
 
-* **2017** Doctoral fellowship granted by National Scientific and Technical Research Council - Argentina (CONICET). Resolution N° 4122. Thesis: Plant-animal interactions in blueberry crops (*Vaccinium corymbosum*, Ericaceae) and reciprocal effects with the Yungas native forest. 
 
 
 # Research grants
@@ -89,15 +92,13 @@ tribble(
 
 7. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
 
+## *Under review*
+1. **Ramírez-Mejía A F**, Pedro G. Blendinger, Ben A. Woodcock, Reto Schmucki, Lorena Escobar, Richard Daniel Morton, Lorena Vieli, Patrícia Nunes-Silva, Silvia B. Lomáscolo, Carolina Laura Morales, Maureen Murúa, Kayna Agostini, & Natacha P. Chacoff. The step by step of pollination service in blueberry crops. **Second round of revision revisión:** *Journal of Applied Ecology*.
 
 ## **In preparation**
-1. **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S & Blendinger P. Optimal pollination thresholds to maximize blueberry production
-.
+1. **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S & Blendinger P. Optimal pollination thresholds to maximize blueberry production.
 
 2. **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. Individual and population effectiveness of hummingbirds, wild and managed insect pollinating blueberry crops.
-
-3. **Ramírez-Mejía A F**, Pedro G. Blendinger, Ben Woodcock, Daniel Morton, Kayna Agostini, Lorena Escobar, Lorena Vieli, Maureen Murua, Patrícia N. Silva, Reto Schmucki, Silvia L. Lomáscolo & Natacha Chacoff. The step by step of pollination service process in blueberry crops.
-
 
 ## **Theses**
 
@@ -113,7 +114,7 @@ tribble(
                            when = glue::glue("{titulo}"))
 ```
 
-**PhD**. 2018 - Present. Plant-animal interactions in crops and reciprocal effects with the Yungas native forest. Thesis advisors: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; independent research CONICET, assistant professor UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; assistant researcher CONICET.
+**PhD**. 2018 - 2023 Plant-animal interactions in crops and reciprocal effects with the Yungas native forest. Thesis advisors: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; independent research CONICET, assistant professor UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; assistant researcher CONICET.
 
 **MSc**. 2017. Seed dispersion and functional diversity of phyllostomid bats in an anthropogenic landscape: a multi-scale approach. Thesis advisors: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad de los Llanos, Colombia. [J. Nicolás Urbina-Cardona](https://scholar.google.com/citations?user=uMBjaFgAAAAJ&hl=en), PhD; Pontificia Universidad Javeriana, Colombia.
 

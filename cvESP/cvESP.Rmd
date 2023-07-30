@@ -1,7 +1,7 @@
 ---
 name: Andrés F. Ramírez-Mejía
 profilepic: andresSURPASS2.jpg
-position: "Becario doctoral del CONICET"
+position: "Becario Postdoctoral del CONICET"
 address: "Instituto de Ecología Regional UNT-CONICET"
 headcolor: 414141
 phone: +54 3816627944
@@ -10,7 +10,7 @@ twitter: felipe_arm_
 github: andres-frm
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
-aboutme: "Soy un biólogo interesado en usar aproximaciones de la ecología del paisaje, ecología funcional e interacciones planta-animal, para estudiar cómo patrones espaciales regulan las respuestas o el rol ecológico de mamíferos y polinizadores. Me apasiona la naturaleza, la literatura, la ciencia de datos y la programación en R."
+aboutme: "Investigo los patrones y mecanismos que determinan la contribución de los polinizadores a la producción del arándano en el noroeste argentino. Busco entender los efectos en diferentes métricas productivas del cultivo; detectar umbrales óptimos de polinización, y evaluar el rol que desempeña el contexto espacial en la regulación del servicio de polinización. Me apasiona la naturaleza, la literatura, el análisis de datos y la programación en R."
  
 ---
 
@@ -25,7 +25,7 @@ library(vitae)
 library(tibble)
 tribble(
   ~ `Título`, ~ Año, ~ Institución, ~ Lugar, 
-  "PhD. Ciencias Biológicas", "2018-Presente", "Universidad Nacional de Tucumán", "Tucumán, Argentina",
+  "PhD. Ciencias Biológicas", "2018-2023", "Universidad Nacional de Tucumán", "Tucumán, Argentina",
   "MSc. Conservación y Uso de Biodiversidad", "2015-2017", "Pontificia Universidad Javeriana", "Bogotá, Colombia", 
   "BSc. Biólogo", "2008-2014", "Universidad de Caldas", "Manizales, Colombia", 
 ) %>% 
@@ -38,13 +38,15 @@ tribble(
 
 # Distinciones y becas
 
+* **2023** Beca interna postdoctoral otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Resolución: RESOL-2023-1026-APN-DIR#CONICET
+
+* **2017** Beca doctoral otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Resolución N° 4122. Plan de tesis: Interacciones planta-animal en cultivos de arándanos (*Vaccinium corymbosum*, Ericaceae) y efectos recíprocos con el bosque nativo de Yungas. Año de inicio: 2018.
+
 * **2017** Orden al Mérito Académico Javeriano. MSc. en Conservación y Uso de Biodiversidad. Pontificia Universidad Javeriana. Bogotá, Colombia.
 
 * **2017** Grado CUM LAUDE. MSc. en Conservación y Uso de Biodiversidad. Pontificia Universidad Javeriana. Bogotá, Colombia
 
 * **2017** Tesis de maestría con distinción meritoria. Facultad de Estudios Ambientales y Rurales, Pontificia Universidad Javeriana. Bogotá, Colombia.
-
-* **2017** Beca doctoral otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Resolución N° 4122. Plan de tesis: Interacciones planta-animal en cultivos de arándanos (*Vaccinium corymbosum*, Ericaceae) y efectos recíprocos con el bosque nativo de Yungas. Año de inicio: 2018.
 
 
 # Subsidios de investigación
@@ -70,7 +72,7 @@ tribble(
 
 ## **Artículos publicados**
 
-1. **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. (2023) [Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm’s spatial context](https://doi.org/10.1016/j.agee.2022.108229). *Agriculture Ecosystems and Environment*. DOI: https://doi.org/10.1016/j.agee.2022.108229
+1. **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. (2023) [Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm’s spatial context](https://doi.org/10.1016/j.agee.2022.108229). *Agriculture Ecosystems and Environment*. DOI: doi.org/10.1016/j.agee.2022.108229
 
 2. Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. (2022) [Nutrient balance and energy-acquisition  effectiveness: do birds adjust their fruit diet to achieve intake targets?](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
 
@@ -84,16 +86,17 @@ tribble(
 
 7. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
 
+## **En revisión**
+1. **Ramírez-Mejía A F**, Pedro G. Blendinger, Ben A. Woodcock, Reto Schmucki, Lorena Escobar, Richard Daniel Morton, Lorena Vieli, Patrícia Nunes-Silva, Silvia B. Lomáscolo, Carolina Laura Morales, Maureen Murúa, Kayna Agostini, & Natacha P. Chacoff. The step by step of pollination service in blueberry crops. **Segunda ronda de revisión:** *Journal of Applied Ecology*.
+
+
 
 ## **En prepración**
 1. **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S & Blendinger P. Optimal pollination thresholds to maximize blueberry production.
 
 2. **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. Individual and population effectiveness of hummingbirds, wild and managed insect pollinating blueberry crops.
 
-3. **Ramírez-Mejía A F**, Pedro G. Blendinger, Ben Woodcock, Daniel Morton, Kayna Agostini, Lorena Escobar, Lorena Vieli, Maureen Murua, Patrícia N. Silva, Reto Schmucki, Silvia L. Lomáscolo & Natacha Chacoff. The step by step of pollination service in blueberry crops.
 
-
-## **Tesis**
 
 ```{r, eval=FALSE}
 
@@ -107,7 +110,9 @@ tribble(
                            when = glue::glue("{titulo}"))
 ```
 
-**PhD**. 2018 - Presente. Interacciones planta-animal en cultivos y efectos recíprocos con el bosque nativo de Yungas. Pedro G. Blendinger, PhD; investigador independiente CONICET, profesor adjunto UNT. Silvia Lomáscolo, PhD; investigadora asistente CONICET.
+## **Tesis**
+
+**PhD**. 2018 - 2023. El paso a paso del servicio de polinización en cultivos de arándano: patrones y mecanismos. Pedro G. Blendinger, PhD; investigador independiente CONICET, profesor adjunto UNT. Silvia Lomáscolo, PhD; investigadora asistente CONICET.
 
 **MSc**. 2017. Diversidad funcional, taxonómica y dispersión de semillas por murciélagos filostómidos en un paisaje antropizado: un análisis multiescala. Asesores de tesis: Francisco Sánchez, PhD; Universidad de los Llanos, Colombia. J. Nicolás Urbina-Cardona, PhD; Pontificia Universidad Javeriana, Colombia.
 
