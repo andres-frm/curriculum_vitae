@@ -6,11 +6,11 @@ address: Institute of Regional Ecology UNT-CONICET
 headcolor: "414141"
 phone: +54 9 3816627944
 email: andresfeliper.mejia@gmail.com
-twitter: felipe_arm_
+linkedin: Andrés F. Ramírez-Mejía
 github: andres-frm
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
-aboutme: I am currently investigating the patterns and mechanisms that determine the contribution of pollinators to blueberry production in northwestern Argentina. I seek to understand the effects on different productive metrics of the crop, detect optimal pollination thresholds, and evaluate the role played by the spatial context in regulating the pollination service. I am passionate about nature, literature, data analysis, and R programming.
+aboutme: My current work aims to develop research-based solutions to manage pollination service in blueberry crops in northwestern Argentina. I seek to understand pollinators' contribution to different crop productive metrics, detect optimal pollination thresholds to manage honeybee hives, and evaluate the role played by the spatial context in regulating pollination service. I am passionate about nature, literature, biking, data analysis, and R programming.
  
 ---
 
@@ -20,11 +20,25 @@ aboutme: I am currently investigating the patterns and mechanisms that determine
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
+# Current position
+
+```{r}
+library(tibble)
+tribble(
+  ~ `Título`, ~ Año, ~ Institución, ~ Lugar, 
+  "Postdoctoral researcher (CONICET)", "2023 - present", "Instituto de Ecología Regional, UNT-CONICET", "Tucumán, Argentina"
+) %>% 
+  detailed_entries(what = `Título`, 
+                   when = `Año`,
+                   with = Institución,
+                   where = Lugar)
+
+```
 
 # Education
 
 ```{r educacion}
-library(tibble)
+
 tribble(
   ~ `Título`, ~ Año, ~ Institución, ~ Lugar, 
   "PhD. Biological science", "2018-2023", "Universidad Nacional de Tucumán", "Tucumán, Argentina",
@@ -49,28 +63,6 @@ tribble(
 * **2017** Graduated with honors CUM LAUDE. Master in Conservation and Use of Biodiversity at the Pontificia Universidad Javeriana. Pontificia Universidad Javeriana. Bogotá, Colombia
 
 * **2017** Master degree thesis with honorary mention. Master in Conservation and Use of Biodiversity at the Pontificia Universidad Javeriana. Bogotá, Colombia.
-
-
-
-# Research grants
-
-```{r subsidios}
-
-tribble(
-  ~beca, ~institucion, ~proyecto, ~año, ~monto, ~lugar, 
-  "Research grant Aves Argentinas to support Argentinian ornithology", "Ornithological Society of La Plata", "Ecosystem services provided by hummingbirds (Trochilidae): the pollination of blueberry in the Argentinian northeastern", "2020", "$50000 ARS ($640 US)", "Argentina",
-  "François Vuilleumier Fund for Research on Neotropical Birds", "Neotropical Ornithological Society", "Ecosystem services provided by hummingbirds (Trochilidae): the pollination of blueberry in the Argentinian northeastern", "2018", "$1000 US", "EEUU"
-) %>% 
-  detailed_entries(with = beca,
-                   what = glue::glue("Awarded in {año} by {institucion}"),
-                   where = lugar,
-                   when = monto,
-                   why = proyecto
-                   )
-
-
-```
-
 
 
 
@@ -114,7 +106,7 @@ tribble(
                            when = glue::glue("{titulo}"))
 ```
 
-**PhD**. 2018 - 2023 Plant-animal interactions in crops and reciprocal effects with the Yungas native forest. Thesis advisors: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; independent research CONICET, assistant professor UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; assistant researcher CONICET.
+**PhD**. 2018 - 2023. The step-by-step of pollination service in blueberry crops: patterns and mechanisms. Thesis advisors: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; independent research CONICET, assistant professor UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; assistant researcher CONICET.
 
 **MSc**. 2017. Seed dispersion and functional diversity of phyllostomid bats in an anthropogenic landscape: a multi-scale approach. Thesis advisors: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad de los Llanos, Colombia. [J. Nicolás Urbina-Cardona](https://scholar.google.com/citations?user=uMBjaFgAAAAJ&hl=en), PhD; Pontificia Universidad Javeriana, Colombia.
 
@@ -141,6 +133,26 @@ tribble(
 **2014**. *Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation*. II Symposium of small carnivores. IV Colombian congres fo zoology. Cartagena, Colombia.
 
 **2014**. *Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados*. III Symposium of regional biology. Armenia, Colombia.
+
+# Research grants
+
+```{r subsidios}
+
+tribble(
+  ~beca, ~institucion, ~proyecto, ~año, ~monto, ~lugar, 
+  "Research grant Aves Argentinas to support Argentinian ornithology", "Ornithological Society of La Plata", "Ecosystem services provided by hummingbirds (Trochilidae): the pollination of blueberry in the Argentinian northeastern", "2020", "$50000 ARS ($640 US)", "Argentina",
+  "François Vuilleumier Fund for Research on Neotropical Birds", "Neotropical Ornithological Society", "Ecosystem services provided by hummingbirds (Trochilidae): the pollination of blueberry in the Argentinian northeastern", "2018", "$1000 US", "EEUU"
+) %>% 
+  detailed_entries(with = beca,
+                   what = glue::glue("Awarded in {año} by {institucion}"),
+                   where = lugar,
+                   when = monto,
+                   why = proyecto
+                   )
+
+
+```
+
 
 # Teaching experience
 
