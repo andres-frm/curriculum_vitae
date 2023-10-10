@@ -41,7 +41,7 @@ tribble(
 
 tribble(
   ~ `Título`, ~ Año, ~ Institución, ~ Lugar, 
-  "PhD. Biological science", "2018-2023", "Universidad Nacional de Tucumán", "Tucumán, Argentina",
+  "PhD. Biological Sciences", "2018-2023", "Universidad Nacional de Tucumán", "Tucumán, Argentina",
   "MSc. Conservation and Use of Biodiversity", "2015-2017", "Pontificia Universidad Javeriana", "Bogotá, Colombia", 
   "BSc. Biologist", "2008-2014", "Universidad de Caldas", "Manizales, Colombia", 
 ) %>% 
@@ -85,7 +85,7 @@ tribble(
 7. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
 
 ## **Under review**
-1. **Ramírez-Mejía A F**, Pedro G. Blendinger, Ben A. Woodcock, Reto Schmucki, Lorena Escobar, Richard Daniel Morton, Lorena Vieli, Patrícia Nunes-Silva, Silvia B. Lomáscolo, Carolina Laura Morales, Maureen Murúa, Kayna Agostini, & Natacha P. Chacoff. The step by step of pollination service in blueberry crops. **Second round of revision revisión:** *Journal of Applied Ecology*.
+1. **Ramírez-Mejía A F**, Pedro G. Blendinger, Ben A. Woodcock, Reto Schmucki, Lorena Escobar, Richard Daniel Morton, Lorena Vieli, Patrícia Nunes-Silva, Silvia B. Lomáscolo, Carolina Laura Morales, Maureen Murúa, Kayna Agostini, & Natacha P. Chacoff. The step by step of pollination service in blueberry crops. **Second round of revision:** *Journal of Applied Ecology*.
 
 ## **In preparation**
 1. **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S & Blendinger P. Optimal pollination thresholds to maximize blueberry production.
@@ -108,9 +108,9 @@ tribble(
 
 **PhD**. 2018 - 2023. The step-by-step of pollination service in blueberry crops: patterns and mechanisms. Thesis advisors: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; independent research CONICET, assistant professor UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; assistant researcher CONICET.
 
-**MSc**. 2017. Seed dispersion and functional diversity of phyllostomid bats in an anthropogenic landscape: a multi-scale approach. Thesis advisors: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad de los Llanos, Colombia. [J. Nicolás Urbina-Cardona](https://scholar.google.com/citations?user=uMBjaFgAAAAJ&hl=en), PhD; Pontificia Universidad Javeriana, Colombia.
+**MSc**. 2015 - 2017. Seed dispersion and functional diversity of phyllostomid bats in an anthropogenic landscape: a multi-scale approach. Thesis advisors: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad de los Llanos, Colombia. [J. Nicolás Urbina-Cardona](https://scholar.google.com/citations?user=uMBjaFgAAAAJ&hl=en), PhD; Pontificia Universidad Javeriana, Colombia.
 
-**BSc**. 2014. Activity pattern, habitat use, and mammals richness in native and reforested forests at the Colombian Andes. Thesis advisor: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
+**BSc**. 2008 - 2014. Activity patterns, habitat use, and mammals richness in native and reforested forests at the Colombian Andes. Thesis advisor: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
 
 
 
@@ -178,7 +178,7 @@ tribble(
 
 tribble(
   ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
-  'Introduction to Bayesian statistics methos in ecology', 'Universidad de Buenos Aires', 'Buenos Aires, Argentina', 2022, '45h', '10/10',
+  'Introduction to Bayesian statistics methods in ecology', 'Universidad de Buenos Aires', 'Buenos Aires, Argentina', 2022, '45h', '10/10',
     'Ecosystem services: concepts, tools and perspectives', 'Universidad Nacional de Cuyo', 'Mendoza, Argentina', 2022, '45h', '10/10',
   "Data science with Python", "National University of Southern Patagonia", "Argentina (online)", 2022, "40h", "10/10",
   "Models and data in ecology", "National University of Comahue", "Bariloche, Argenttina (online)", 2021, "40h", "9/10",
