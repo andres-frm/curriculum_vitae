@@ -1,139 +1,129 @@
 ---
 name: Andrés F. Ramírez-Mejía
-profilepic: andresSURPASS2.jpg
-position: "Becario postdoctoral del CONICET"
-address: "Instituto de Ecología Regional UNT-CONICET"
-headcolor: 414141
-phone: +54 3816627944
-email: "andresfeliper.mejia@gmail.com"
-twitter: felipe_arm_
+position: "BSc, MSc, PhD"
+address: "Instituto de Ecología Regional, UNT-CONICET \\tabularnewline Yerba Buena, Argentina."
+headcolor: "414141"
+www: andres-frm.github.io
+phone: +54 9 3816627944
+email: andresfeliper.mejia@gmail.com
 github: andres-frm
 date: "`r format(Sys.time(), '%B %Y')`"
-output: vitae::awesomecv
-aboutme: "Investigo los patrones y mecanismos que determinan la contribución de los polinizadores a la producción del arándano en el noroeste argentino. Busco entender los efectos en diferentes métricas productivas del cultivo; detectar umbrales óptimos de polinización, y evaluar el rol que desempeña el contexto espacial en la regulación del servicio de polinización. Me apasiona la naturaleza, la literatura, el análisis de datos y la programación en R."
- 
+output: vitae::hyndman
+fontsize: 10pt
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, results='hide', warning=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(vitae)
+pks <- c('vitae', 'tibble', 'tidyverse')
+
+sapply(pks, library, character.only = T)
+
+baretable <- function(tbl, digits = 0,
+                      include.colnames = FALSE, include.rownames = FALSE,
+                      hline.after = NULL,
+                      size = getOption("xtable.size", NULL),
+                      add.to.row = getOption("xtable.add.to.row", NULL),
+                      longtable = FALSE,
+                      ...) {
+  xtable::xtable(tbl, digits = digits, ...) |>
+    print(
+      include.colnames = include.colnames,
+      include.rownames = include.rownames,
+      hline.after = hline.after,
+      comment = FALSE,
+      tabular.environment = if_else(longtable, "longtable", "tabular"),
+      floating = FALSE,
+      size = size,
+      add.to.row = add.to.row,
+      sanitize.text.function = function(x) {
+        x
+      }
+    )
+}
+
 ```
 
 # Educación
 
-```{r educacion}
-library(tibble)
+```{r educacion, results='asis'}
+
 tribble(
-  ~ `Título`, ~ Año, ~ Institución, ~ Lugar, 
-  "PhD. Ciencias Biológicas", "2018-2023", "Universidad Nacional de Tucumán", "Tucumán, Argentina",
-  "MSc. Conservación y Uso de Biodiversidad", "2015-2017", "Pontificia Universidad Javeriana", "Bogotá, Colombia", 
-  "BSc. Biólogo", "2008-2014", "Universidad de Caldas", "Manizales, Colombia", 
-) %>% 
-  detailed_entries(what = `Título`, 
-                   when = `Año`,
-                   with = Institución,
-                   where = Lugar)
+  ~degree, ~Start, ~Start_month, ~End, ~End_month, ~institution, ~place,
+  'B.Sc. Biología', 2008 , 'Julio ', 2014, 'Septiembre ', 'Universidad de Caldas (Colombia)', 'Manizales, Colombia',
+  'MSc. Conservación y Uso de Biodiversidad', 2015 , 'Agosto ', 2017, 'Agosto ', 'Pontificia Universidad Javeriana (Colombia)', 'Bogotá, Colombia',
+  'Ph.D. Ciencias Biológicas', 2018 , 'Agosto ', 2023, 'Agosto ', 'Universidad Nacional de Tucumán (Argentina)', 'Tucumán, Argentina'
+) |> 
+  mutate(Date = paste(Start_month, Start, ' -- ', End_month, End, sep = '')) |> 
+  detailed_entries(what = degree, 
+                   when = Date,
+                   where = institution)
 
 ```
 
-# Distinciones y becas
+# Current position
 
-* **2023** Beca interna postdoctoral otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Resolución: RESOL-2023-1026-APN-DIR#CONICET
-
-* **2017** Beca doctoral otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Resolución N° 4122. Plan de tesis: Interacciones planta-animal en cultivos de arándanos (*Vaccinium corymbosum*, Ericaceae) y efectos recíprocos con el bosque nativo de Yungas. Año de inicio: 2018.
-
-* **2017** Orden al Mérito Académico Javeriano. MSc. en Conservación y Uso de Biodiversidad. Pontificia Universidad Javeriana. Bogotá, Colombia.
-
-* **2017** Grado CUM LAUDE. MSc. en Conservación y Uso de Biodiversidad. Pontificia Universidad Javeriana. Bogotá, Colombia
-
-* **2017** Tesis de maestría con distinción meritoria. Facultad de Estudios Ambientales y Rurales, Pontificia Universidad Javeriana. Bogotá, Colombia.
-
-
-# Subsidios de investigación
-
-```{r subsidios}
+```{r, results='asis'}
 
 tribble(
-  ~beca, ~institucion, ~proyecto, ~año, ~monto, ~lugar, 
-  "François Vuilleumier Fund for Research on Neotropical Birds", "Neotropical Ornithological Society", "Servicios ecosistémicos provistos por picaflores (Trochilidae): la polinización del arándano en el noroeste de Argentina", "2018", "$1000 US", "EEUU",
-  "Beca Aves Argentinas, de Apoyo a la Ornitología Argentina", "Aves Argentinas - Sociedad Ornitológica de la Plata", "Servicios ecosistémicos provistos por picaflores (Trochilidae): la polinización del arándano en el noroeste de Argentina", "2020", "$50000 ARS ($640 US)", "Argentina"
-) %>% 
-  detailed_entries(with = beca,
-                   what = glue::glue("Otorgado en {año} por {institucion}"),
-                   where = lugar,
-                   when = monto,
-                   why = proyecto
-                   )
-
+  ~Date, ~position,
+  2023, 'Investigador postdoctoral en el Instituto de Ecología Regional, UNT-CONICET.'
+) |> 
+  baretable()
 
 ```
-
-# Publicaciones y presentaciones
-
-## **Artículos publicados**
-
-1. **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. (2023) [Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm’s spatial context](https://doi.org/10.1016/j.agee.2022.108229). *Agriculture Ecosystems and Environment*. DOI: doi.org/10.1016/j.agee.2022.108229
-
-2. Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. (2022) [Nutrient balance and energy-acquisition  effectiveness: do birds adjust their fruit diet to achieve intake targets?](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
-
-3. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2022). [The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: doi:10.1017/S026646742100047X
-
-4. **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. (2021). [Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation](https://doi.org/10.1676/19-54) . *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
-
-5. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2020) [Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
-
-6. **Ramírez-Mejía A F**, & Sánchez F. (2016). [Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319. 
-
-7. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
-
-## **En revisión**
-1. **Ramírez-Mejía A F**, Pedro G. Blendinger, Ben A. Woodcock, Reto Schmucki, Lorena Escobar, Richard Daniel Morton, Lorena Vieli, Patrícia Nunes-Silva, Silvia B. Lomáscolo, Carolina Laura Morales, Maureen Murúa, Kayna Agostini, & Natacha P. Chacoff. The step by step of pollination service in blueberry crops. **Segunda ronda de revisión:** *Journal of Applied Ecology*.
+**Proyecto:** *Sistemas de control para el manejo del servicio de polinización en cultivos de arándanos.*
 
 
+# Intereses de investigación
 
-## **En prepración**
-1. **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S & Blendinger P. Optimal pollination thresholds to maximize blueberry production.
+-   Diversidad funcional y servicios ecosistémicos.
+-   Ecología de polinizadores y mamíferos.
+-   Ecología de paisaje.
+-   Modelos en ecología, programación estadística y ciencia de datos.
 
-2. **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. Individual and population effectiveness of hummingbirds, wild and managed insect pollinating blueberry crops.
+Actualmente, me interesa combinar diferentes técnicas de modelado y experimentos de campo, para entender cómo patrones espaciales afectan la biodiversidad y servicios ecosistémicos en paisajes agrícolas  del noroeste argentino.
 
+# Habilidades técnicas
+-   Diseño experimental y colecta de datos.
+-   Análisis de datos: estadística frecuentista y bayesiana (lm, glm glmm, modelos jerarquicos), modelos de ecuaciones estructurales, análisis de redes, lógica difuza, y modelos basados en agentes.
+-   Programación estadística: R (avanzado), Python (básico) y Stan (básico).
+-   Herramientas para análisis espaciales: Google Earth Engine (básico) y ArcGis (básico).
+-   Otras herramientas: Git, RMarkdow y Quarto.
 
+--------------------------------
 
-```{r, eval=FALSE}
+# Publicaciones, tésis y presentaciones orales
 
-tribble(
-  ~año, ~titulo, ~tesis,
-  2014, "BSc", "Actividad, uso de hábitat y riqueza de mamíferos en un bosque nativo y uno reforestado con eucalipto en los Andes colombianos",
-  2017, "MSc", "Diversidad funcional, taxonómica y dispersión de semillas por murciélagos filostómidos en un paisaje antropizado: un análisis multiescala",
-  2018, "PhD", "Interacciones planta-animal en cultivos y efectos recíprocos con el bosque nativo de Yungas"
-) %>% vitae::brief_entries(with = año,
-                           what = tesis,
-                           when = glue::glue("{titulo}"))
-```
+## Artículos publicados
 
-## **Tesis**
+-   Nunes-Silva Patrícia, **Ramírez-Mejía Andrés F.**, Blochtein B, Ramos J, Agostini K, Vieli L, Santanna M, Raguse-Quadros M, Maureen M., Chacoff N P, Cavigliasso P, Blendinger P G., Domingos S. **(2023)**. *Blueberry: pollination and production in South America*. ISBN: 978-65-00-65347-2. DOI: <https://doi.org/10.5281/zenodo.7770381>.
+-   **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. **(2023)** *Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm's spatial context*. *Agriculture Ecosystems and Environment*. DOI: <https://doi.org/10.1016/j.agee.2022.108229>
+-   Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. **(2022)** [*Nutrient balance and energy-acquisition effectiveness: do birds adjust their fruit diet to achieve intake targets?*](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
+-   **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. **(2022)**. [*The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat*](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: <doi:10.1017/S026646742100047X>
+-   **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. **(2021)**. [*Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation*](https://doi.org/10.1676/19-54). *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
+-   **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. **(2020)** [*Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis*](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
+-   **Ramírez-Mejía A F**, & Sánchez F. **(2016)**. [*Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia*](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319.
+-   **Ramírez-Mejía A F**, & Sánchez F. **(2015)**. [*Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin*](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
 
-**PhD**. 2018 - 2023. El paso a paso del servicio de polinización en cultivos de arándano: patrones y mecanismos. Pedro G. Blendinger, PhD; investigador independiente CONICET, profesor adjunto UNT. Silvia Lomáscolo, PhD; investigadora asistente CONICET.
+### Artículos en revisión
 
-**MSc**. 2017. Diversidad funcional, taxonómica y dispersión de semillas por murciélagos filostómidos en un paisaje antropizado: un análisis multiescala. Asesores de tesis: Francisco Sánchez, PhD; Universidad de los Llanos, Colombia. J. Nicolás Urbina-Cardona, PhD; Pontificia Universidad Javeriana, Colombia.
+-   **Ramírez-Mejía A F**, Blendinger P, Woodcock B, Schmucki R, Escobar L, Morton R, Vieli L, Nunes-Silva P, Lomáscolo S, Morales C, Murúa M, Agostini K, & Chacoff N. *The step by step of pollination service in blueberry crops*. **Second round of revision:** *Journal of Applied Ecology*.
 
-**BSc**. 2014. Actividad, uso de hábitat y riqueza de mamíferos en un bosque nativo y uno reforestado con eucalipto en los Andes colombianos. Asesor de tesis: Francisco Sánchez, PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
+-   **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S, Woodcock B, Schmucki R & Blendinger P. *Optimal pollination thresholds to maximize blueberry production*. **First round of revision:** *Agriculture Ecosystems and Environment*
 
+### Artículos en preparación
 
+-   **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. *Individual and population effectiveness of hummingbirds, wild and managed insects pollinating blueberry crops*.
 
-## **Presentaciones orales**
+## Tésis
 
-```{r P_orales, eval=FALSE}
-tribble(
-  ~año, ~evento, ~presentacion, ~lugar,
-  2021, "XXIX Reunión argentina de ecología", "La polinización del arándano en el NOA ¿son importantes las especies silvestres?", "Tucumán, Argentina",
-  2014, "II Simposio colombiano de pequeños carnívoros. IV Congreso colombiano de zoología", "Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation", "Cartagena, Colombia",
-  2014, "III Simposio regional de biología.", "Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados", "Armenia, Colombia"
-) %>% 
-  detailed_entries(with = evento,
-                   what = presentacion,
-                   when = año,
-                   where = lugar)
-```
+**PhD**. 2018 - 2023. El paso a paso del servicio de polinización en cultivos de arándano: patrones y mecanismos. Director: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; Investigador independiente CONICET, profesor asistente UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; investigador asistente CONICET.
+
+**MSc**. 2015 - 2017. Diversidad funcional, taxonómica y dispersión de semillas por murciélagos filostómidos en un paisaje antropizado: un análisis multiescala. Director: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad de los Llanos, Colombia. Co-director: [J. Nicolás Urbina-Cardona](https://scholar.google.com/citations?user=uMBjaFgAAAAJ&hl=en), PhD; Pontificia Universidad Javeriana, Colombia.
+
+**BSc**. 2008 - 2014. Actividad, uso de hábitat y riqueza de mamíferos en un bosque nativo y uno reforestado con eucalipto en los Andes colombianos. Director: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
+
+## Presentaciones orales
 
 **2021**. *La polinización del arándano en el NOA ¿son importantes las especies silvestres?*. XXIX Reunión argentina de ecología. Tucumán, Argentina.
 
@@ -141,87 +131,114 @@ tribble(
 
 **2014**. *Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados*. III Simposio regional de biología. Armenia, Colombia.
 
+-----------------------------
+
+# Becas
+
+-   **2023**. Beca interna postdoctoral otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas. (CONICET). Resolución: RESOL‐2023‐1026‐APN‐DIR#CONICET.
+
+-   **2017**. Beca doctoral otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Resolución N° 4122. Plan de tesis: Interacciones planta‐animal en cultivos de arándanos (*Vaccinium corymbosum*, Ericaceae) y efectos recíprocos con el bosque nativo de Yungas. Año de inicio: 2018.
+
+# Subsidios de investigación
+
+```{r results='asis'}
+
+tribble(
+  ~year, ~proyect, ~funding, ~grant,
+  2020, 'Servicios ecosistémicos provistos por picaflores (Trochilidae)','Aves Argentinas (ARG)', 640,
+  2018, 'Servicios ecosistémicos provistos por picaflores (Trochilidae)','Neotropical Ornithological Society (USA)', 1000,
+) |> 
+  mutate(US = paste(paste('\\$', grant, sep = ''), 'US')) |> 
+  select(year, proyect, funding, US) |> 
+  baretable()
+
+```
+
+# Distinciones
+
+```{r, results='asis'}
+
+tribble(
+  ~year, ~award,
+  2017, 'Distinción al mérito académico durante MSc, Pontificia universidad Javeriana',
+  2017, 'Graduado con honores CUM LAUDE durante MSc, Pontificia universidad Javeriana',
+  2017, 'MSc con mensión meritoria, Pontificia universidad Javeriana'
+) |> 
+  baretable()
+
+```
+
+
 # Trabajo docente
 
-```{r docente}
+```{r docente, results='asis'}
 tribble(
-  ~curso, ~institucion, ~nivel, ~lugar, ~año, ~comentario,
-  "Introducción al Programa R", "Universidad Nacional de Tucumán, Facultad de Ciencias Naturales e Instituto Miguel Lillo", "pregrado", "Tucumán, Argentina", 2019, "Licenciatura en Ciencias Biológicas",
-  "Clínica de datos", "Universidad Nacional de Tucumán, Facultad de Ciencias Naturales e Instituto Miguel Lillo", "PhD", "Tucumán, Argentina", 2021, "Ciencias Biológicas, Agronomía y Biotecnología"
-) %>% 
-  detailed_entries(
-    with = curso,
-    what = institucion,
-    where = lugar,
-    when = año,
-    why = glue::glue("Dictado a estudiantes de {nivel} de {comentario}.")
-  )
+  ~curse, ~institution, ~level, ~year,
+  "Clínica de datos", "Universidad Nacional de Tucumán", "PhD",  2021, 
+  "Introducción a la programación en R", "Universidad Nacional de Tucumán", "grado", 2019
+) |> 
+  mutate(
+    curse_level = paste(curse, paste('(nivel: ', level, ')', sep = ''), sep = ' ')
+  ) |> 
+  select(year, curse_level, institution) |> 
+  baretable()
 
 ```
 
-# Cursos de posgrado
+# Cursos de Postgrado
 
-```{r cursos_posgrado}
+```{r cursos_posgrado, results='asis'}
 
 tribble(
-  ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
-  'Introducción a los métodos estadísticos bayesianos en ecología', 'Universidad de Buenos Aires', 'Buenos Aires, Argentina', 2022, '45h', '10/10',
-  'Servicios ecosistémicos: conceptos, herramientas y desafíos', 'Universidad Nacional de Cuyo', 'Mendoza, Argentina', 2022, '45h', '10/10',
-  "Ciencia de datos con Python", "Universidad Nacional de la Patagonia Austral", "Argentina (online)", 2022, "40h", "10/10",
-  "Modelos y datos en Ecología", "Universidad Nacional de Comahue", "Bariloche, Argenttina (virtual)", 2021, "40h", "9/10",
-  "Herramientas estadísticas para el abordaje de las métricas de género: una mirada desde la teoría de grafos y de sistemas", "Universidad Nacional de Tucumán", "Tucumán, Argentina", 2021, "40h", "100/100",
-  "Redes ecológicas", "Universidad de São Paulo", "São Paulo, Brasil", 2020, "60h", "Excelente",
-  "Ecología de la polinización", "Universidad Nacional del Comahue", "Bariloche, Argentina", 2019, "60h", "100/100",
-  "13° International Pollination Course", "Rede Brasileira de Interações Planta-Polinizador (REBIPP)", "Minas Gerais, Brasil", 2019, "98h", "100/100",
-  "Métodos estadísticos avanzados en ecología y evolución", "Facultad de Ciencias, Universidad de la República Uruguay", "Maldonado, Uruguay", 2019, "60h", "100/100",
-  "Modelos Estadísticos Avanzados Utilizando el Lenguaje R", "Universidad Nacional de Córdoba", "Córdoba Argentina", 2018, "40h", "100/100"
-) %>% 
-  detailed_entries(with = curso,
-                   what = institucion,
-                   where = lugar,
-                   when = año,
-                   why = glue::glue("Duración: {duracion}. Calificación: {nota}"))
-
-```
-
-
-# Pasantía
-
-```{r pasantia}
-tribble(
-  ~pasantia, ~institucion, ~lugar, ~año, ~duracion,
-  "Laboratorio de Palinología", "Facultad de Ciencias Naturales e instituto Migue Lillo, Universidad Nacional de Tucumán", "Tucumán, Argentina", 2018, "20h"
+  ~year, ~course, ~institution, ~hours, ~country,
+  2023, 'Google Earth Engine - Integral', 'Centro REDES (CONICET)', 60, 'Argentina',
+  2022, 'Métodos estadísticos bayesianos en ecología', 'Universidad de Buenos Aires', 45, 'Argentina',
+  2022, 'Servicios ecosistémicos: conceptos, herramientas y desafíos', 'Universidad Nacional de Cuyo', 45, 'Argentina',
+  2022, "Ciencia de datos con Python", "Universidad Nacional de la Patagonia Austral", 40, 'Argentina',
+  2021, "Modelos y datos en Ecología", "Universidad Nacional de Comahue", 40, 'Argentina',
+  2021, "Herramientas estadísticas para análisis de género", "Universidad Nacional de Tucumán", 40, 'Argentina',
+  2020, "Redes ecológicas", "Universidad de São Paulo", 60, 'Brasil',
+  2019, "Ecología de la polinización", "Universidad Nacional del Comahue", 60, 'Argentina',
+  2019, '13° International Pollination Course', 'Federal University of Jequitinhonha Valleys', 98, 'Brasil',
+  2019, "Métodos estadísticos avanzados en ecología y evolución", 'Universidad de la República', 60, 'Uruguay',
+  2018, "Modelos Estadísticos Avanzados Utilizando el Lenguaje R", "Universidad Nacional de Córdoba", 40, 'Argentina'
+) |> 
+  mutate(h = paste(hours, 'h', sep = '')) |> 
+  select(year, course, institution, h, country) |> 
+  baretable()
   
-) %>% detailed_entries(with = pasantia,
-                       what = institucion,
-                       when = año,
-                       where = lugar,
-                       why = glue::glue("Duracion: {duracion}"))
-
 ```
 
 
+# Pasantías
+
+```{r pasantia, results='asis'}
+
+tribble(
+  ~pasantia, ~institucion, ~lugar, ~year, ~duracion,
+  "Laboratorio de Palinología", "Universidad Nacional de Tucumán", "Tucumán, Argentina", 2018, "20h"
+  
+) |> 
+  select(pasantia, institucion, lugar, year) |> 
+  baretable()
+
+```
 
 # Grupos de investigación avalado por Colciencias (Colombia)
 
-```{r grupoI}
+```{r grupoI, results='asis'}
 
 tribble(
   ~grupo, ~clasificacion, ~institucion, ~vinculacion, ~fechaI, ~fechaF, ~lugar,
-  "InQuiBio (Grupo integrado de investigaciones en química y biología)", "A1", "Universidad Militar Nueva granada", "Integrante", "ene 2013", "dic 2015", "Bogotá, Colombia",
-  "Ecotonos (Grupo de ecología, conservación, taxonomía y sistemática)", "C", "Universidad de los LLanos", "Integrante", "ene 2017", "presente", "Villavicencio, Colombia"
-) %>% 
-  detailed_entries(with = grupo,
-                   what = institucion,
-                   why = glue::glue("Clasificación: {clasificacion}. Vinculación: {vinculacion}."),
-                   where = lugar,
-                   when = glue::glue("{fechaI}-{fechaF}"))
+  "InQuiBio", "A1", "Universidad Militar Nueva granada", "Integrante", "ene 2013", "dic 2015", "Bogotá, Colombia",
+  "Ecotonos", "C", "Universidad de los LLanos", "Integrante", "ene 2017", "presente", "Villavicencio, Colombia"
+)  |> 
+  baretable()
 
 ```
 
 
 # Idiomas
-* Español: nativo.
-* Ingles: comunicación escrita (buena), comprensión lectora (buena), competencia oral (aceptable).
+-   Español.
+-   Ingles.
 
-\pagebreak

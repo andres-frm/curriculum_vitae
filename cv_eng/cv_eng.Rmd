@@ -1,110 +1,123 @@
 ---
 name: Andrés F. Ramírez-Mejía
-profilepic: andresSURPASS2.jpg
-position: "Postdoctoral researcher at CONICET"
-address: Institute of Regional Ecology UNT-CONICET
+position: "BSc, MSc, PhD"
+address: "Institute of Regional Ecology, UNT-CONICET \\tabularnewline Yerba Buena, Argentina."
 headcolor: "414141"
+www: andres-frm.github.io
 phone: +54 9 3816627944
 email: andresfeliper.mejia@gmail.com
-linkedin: Andrés F. Ramírez-Mejía
 github: andres-frm
 date: "`r format(Sys.time(), '%B %Y')`"
-output: vitae::awesomecv
-aboutme: My current work aims to develop research-based solutions to manage pollination service in blueberry crops in northwestern Argentina. I seek to understand pollinators' contribution to different crop productive metrics, detect optimal pollination thresholds to manage honeybee hives, and evaluate the role played by the spatial context in regulating pollination service. I am passionate about nature, literature, biking, data analysis, and R programming.
- 
+output: vitae::hyndman
+fontsize: 10pt
 ---
 
 
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, results='hide', warning=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(vitae)
+pks <- c('vitae', 'tibble', 'tidyverse')
+
+sapply(pks, library, character.only = T)
+
+baretable <- function(tbl, digits = 0,
+                      include.colnames = FALSE, include.rownames = FALSE,
+                      hline.after = NULL,
+                      size = getOption("xtable.size", NULL),
+                      add.to.row = getOption("xtable.add.to.row", NULL),
+                      longtable = FALSE,
+                      ...) {
+  xtable::xtable(tbl, digits = digits, ...) |>
+    print(
+      include.colnames = include.colnames,
+      include.rownames = include.rownames,
+      hline.after = hline.after,
+      comment = FALSE,
+      tabular.environment = if_else(longtable, "longtable", "tabular"),
+      floating = FALSE,
+      size = size,
+      add.to.row = add.to.row,
+      sanitize.text.function = function(x) {
+        x
+      }
+    )
+}
+
 ```
-# Current position
-
-```{r}
-library(tibble)
-tribble(
-  ~ `Título`, ~ Año, ~ Institución, ~ Lugar, 
-  "Postdoctoral researcher (CONICET)", "2023 - present", "Instituto de Ecología Regional, UNT-CONICET", "Tucumán, Argentina"
-) %>% 
-  detailed_entries(what = `Título`, 
-                   when = `Año`,
-                   with = Institución,
-                   where = Lugar)
-
-```
-
 # Education
 
-```{r educacion}
+```{r educacion, results='asis'}
 
 tribble(
-  ~ `Título`, ~ Año, ~ Institución, ~ Lugar, 
-  "PhD. Biological Sciences", "2018-2023", "Universidad Nacional de Tucumán", "Tucumán, Argentina",
-  "MSc. Conservation and Use of Biodiversity", "2015-2017", "Pontificia Universidad Javeriana", "Bogotá, Colombia", 
-  "BSc. Biologist", "2008-2014", "Universidad de Caldas", "Manizales, Colombia", 
-) %>% 
-  detailed_entries(what = `Título`, 
-                   when = `Año`,
-                   with = Institución,
-                   where = Lugar)
+  ~degree, ~Start, ~Start_month, ~End, ~End_month, ~institution, ~place,
+  'B.Sc. Biologist', 2008 , 'July ', 2014, 'September ', 'University of Caldas (Colombia)', 'Manizales, Colombia',
+  'MSc. Conservation and Use of Biodiversity', 2015 , 'August ', 2017, 'August ', 'Pontifical Javeriana University (Colombia)', 'Bogotá, Colombia',
+  'Ph.D. Biological Sciences', 2018 , 'August ', 2023, 'August ', 'National University of Tucumán (Argentina)', 'Tucumán, Argentina'
+) |> 
+  mutate(Date = paste(Start_month, Start, ' -- ', End_month, End, sep = '')) |> 
+  detailed_entries(what = degree, 
+                   when = Date,
+                   where = institution)
 
 ```
 
-# Awards and distinctions
+# Current position
 
-* **2023** Postdoctoral fellowship granted by National Scientific and Technical Research Council - Argentina (CONICET). Resolution. Resolution: RESOL-2023-1026-APN-DIR#CONICET
-
-* **2017** Doctoral fellowship granted by National Scientific and Technical Research Council - Argentina (CONICET). Resolution N° 4122. Thesis: Plant-animal interactions in blueberry crops (*Vaccinium corymbosum*, Ericaceae) and reciprocal effects with the Yungas native forest. 
-
-* **2017** Academic merit award during studies of master degree, at the Pontificia Universidad Javeriana. Bogotá, Colombia.
-
-* **2017** Graduated with honors CUM LAUDE. Master in Conservation and Use of Biodiversity at the Pontificia Universidad Javeriana. Pontificia Universidad Javeriana. Bogotá, Colombia
-
-* **2017** Master degree thesis with honorary mention. Master in Conservation and Use of Biodiversity at the Pontificia Universidad Javeriana. Bogotá, Colombia.
-
-
-
-# Publications and oral presentations
-
-## **Published articles**
-
-1. **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. (2023) [Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm’s spatial context](https://doi.org/10.1016/j.agee.2022.108229). *Agriculture Ecosystems and Environment*. DOI: https://doi.org/10.1016/j.agee.2022.108229
-
-2. Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. (2022) [Nutrient balance and energy-acquisition  effectiveness: do birds adjust their fruit diet to achieve intake targets?](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
-
-3. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2022). [The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: doi:10.1017/S026646742100047X
-
-4. **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. (2021). [Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation](https://doi.org/10.1676/19-54) . *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
-
-5. **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. (2020) [Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
-
-6. **Ramírez-Mejía A F**, & Sánchez F. (2016). [Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319. 
-
-7. **Ramírez-Mejía A F**, & Sánchez F. (2015). [Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
-
-## **Under review**
-1. **Ramírez-Mejía A F**, Pedro G. Blendinger, Ben A. Woodcock, Reto Schmucki, Lorena Escobar, Richard Daniel Morton, Lorena Vieli, Patrícia Nunes-Silva, Silvia B. Lomáscolo, Carolina Laura Morales, Maureen Murúa, Kayna Agostini, & Natacha P. Chacoff. The step by step of pollination service in blueberry crops. **Second round of revision:** *Journal of Applied Ecology*.
-
-## **In preparation**
-1. **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S & Blendinger P. Optimal pollination thresholds to maximize blueberry production.
-
-2. **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. Individual and population effectiveness of hummingbirds, wild and managed insect pollinating blueberry crops.
-
-## **Theses**
-
-```{r, eval=FALSE}
+```{r, results='asis'}
 
 tribble(
-  ~año, ~titulo, ~tesis,
-  2014, "BSc", "Activity, habitat use and species richness of mammals in native forests and eucalyptus plantations in the Colombian Andes",
-  2017, "MSc", "Seed dispersion and functional diversity of phyllostomid bats in an anthropogenic landscape: a multi-scale approach",
-  2018, "PhD", "Plant-animal interactions in crops and reciprocal effects with the Yungas native forest"
-) %>% vitae::brief_entries(with = año,
-                           what = tesis,
-                           when = glue::glue("{titulo}"))
+  ~Date, ~position,
+  2023, 'Postdoctoral researcher at the Institute of Regional Ecology, UNT-CONICET.'
+) |> 
+  baretable()
+
 ```
+**Project:** *Control systems for pollination service management in blueberry crops.* 
+
+
+
+# Research interests
+
+-   Functional diversity and ecosystem services.
+-   Pollinators and mammal ecology.
+-   Landscape ecology.
+-   Ecological modeling, statistical programming and data science.
+
+Currently, I am interested in combining different modeling approaches and field experiments to understand how spatial patterns affect biodiversity and ecosystem services in agricultural landscapes of Northern Argentina.
+
+# Technical skills
+-   Experimental design and data collection.
+-   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), structural equation modeling, network analysis, fuzzy logic and agent-based modeling.
+-   Statistical programming: R (advanced), Python (basic) and Stan (basic).
+-   Spatial analysis tools: Google Earth Engine (basic) and ArcGis (basic).
+-   Other tools: Git, RMarkdow and Quarto.
+
+--------------------------------
+
+# Publication, theses and oral presentations
+
+## Published articles
+
+-   Nunes-Silva Patrícia, **Ramírez-Mejía Andrés F.**, Blochtein B, Ramos J, Agostini K, Vieli L, Santanna M, Raguse-Quadros M, Maureen M., Chacoff N P, Cavigliasso P, Blendinger P G., Domingos S. **(2023)**. *Blueberry: pollination and production in South America*. ISBN: 978-65-00-65347-2. DOI: <https://doi.org/10.5281/zenodo.7770381>.
+-   **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. **(2023)** *Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm's spatial context*. *Agriculture Ecosystems and Environment*. DOI: <https://doi.org/10.1016/j.agee.2022.108229>
+-   Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. **(2022)** [*Nutrient balance and energy-acquisition effectiveness: do birds adjust their fruit diet to achieve intake targets?*](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
+-   **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. **(2022)**. [*The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat*](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: <doi:10.1017/S026646742100047X>
+-   **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. **(2021)**. [*Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation*](https://doi.org/10.1676/19-54). *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
+-   **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. **(2020)** [*Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis*](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
+-   **Ramírez-Mejía A F**, & Sánchez F. **(2016)**. [*Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia*](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319.
+-   **Ramírez-Mejía A F**, & Sánchez F. **(2015)**. [*Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin*](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
+
+### Articles under review
+
+-   **Ramírez-Mejía A F**, Blendinger P, Woodcock B, Schmucki R, Escobar L, Morton R, Vieli L, Nunes-Silva P, Lomáscolo S, Morales C, Murúa M, Agostini K, & Chacoff N. *The step by step of pollination service in blueberry crops*. **Second round of revision:** *Journal of Applied Ecology*.
+
+-   **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S, Woodcock B, Schmucki R & Blendinger P. *Optimal pollination thresholds to maximize blueberry production*. **First round of revision:** *Agriculture Ecosystems and Environment*
+
+### Articles in preparation
+
+-   **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. *Individual and population effectiveness of hummingbirds, wild and managed insects pollinating blueberry crops*.
+
+## Theses
 
 **PhD**. 2018 - 2023. The step-by-step of pollination service in blueberry crops: patterns and mechanisms. Thesis advisors: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; independent research CONICET, assistant professor UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; assistant researcher CONICET.
 
@@ -112,21 +125,8 @@ tribble(
 
 **BSc**. 2008 - 2014. Activity patterns, habitat use, and mammals richness in native and reforested forests at the Colombian Andes. Thesis advisor: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
 
+## Oral Presentations
 
-
-## **Oral Presentations**
-
-```{r P_orales, eval=FALSE}
-tribble(
-  ~año, ~evento, ~presentacion, ~lugar,
-  2014, "II Simposio colombiano de pequeños carnívoros. IV Congreso colombiano de zoología", "Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation", "Cartagena, Colombia",
-  2014, "III Simposio regional de biología.", "Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados", "Armenia, Colombia"
-) %>% 
-  detailed_entries(with = evento,
-                   what = presentacion,
-                   when = año,
-                   where = lugar)
-```
 
 **2021**. *Blueberry pollination at the NOA, are wild species important?*. Tucumán, Argentina.
 
@@ -134,82 +134,96 @@ tribble(
 
 **2014**. *Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados*. III Symposium of regional biology. Armenia, Colombia.
 
+-----------------------------
+
+# Fellowships 
+
+-   **2023**. Postdoctoral fellowship financed by CONICET, Argentina. RESOL‐2023‐1026‐APN‐DIR#CONICET.
+
+-   **2017**. PhD fellowship financed by CONICET, Argentina. N° 4122. Thesis: Plant-animal interaction in blueberry crops (*Vaccinium corymbosum*, Ericaceae) and indirect effect with the Yungas forest.
+
 # Research grants
 
-```{r subsidios}
+```{r results='asis'}
 
 tribble(
-  ~beca, ~institucion, ~proyecto, ~año, ~monto, ~lugar, 
-  "Research grant Aves Argentinas to support Argentinian ornithology", "Ornithological Society of La Plata", "Ecosystem services provided by hummingbirds (Trochilidae): the pollination of blueberry in the Argentinian northeastern", "2020", "$50000 ARS ($640 US)", "Argentina",
-  "François Vuilleumier Fund for Research on Neotropical Birds", "Neotropical Ornithological Society", "Ecosystem services provided by hummingbirds (Trochilidae): the pollination of blueberry in the Argentinian northeastern", "2018", "$1000 US", "EEUU"
-) %>% 
-  detailed_entries(with = beca,
-                   what = glue::glue("Awarded in {año} by {institucion}"),
-                   where = lugar,
-                   when = monto,
-                   why = proyecto
-                   )
+  ~year, ~proyect, ~funding, ~grant,
+  2020, 'Ecosystem services provided by hummingbirds (Trochilidae)','Research grant Aves Argentinas (ARG)', 640,
+  2018, 'Ecosystem services provided by hummingbirds (Trochilidae)','Neotropical Ornithological Society (USA)', 1000,
+) |> 
+  mutate(US = paste(paste('\\$', grant, sep = ''), 'US')) |> 
+  select(year, proyect, funding, US) |> 
+  baretable()
 
+```
+
+# Distinctions
+
+```{r, results='asis'}
+
+tribble(
+  ~year, ~award,
+  2017, 'Academic merit award. During MSc degree at Pontifical Javeriana University',
+  2017, 'Graduated with honors CUM LAUDE. During MSc degree at Pontifical Javeriana University',
+  2017, 'MSc thesis with honorary mention. During MSc degree at Pontifical Javeriana University'
+) |> 
+  baretable()
 
 ```
 
 
 # Teaching experience
 
-```{r docente}
+```{r docente, results='asis'}
 tribble(
-  ~curso, ~institucion, ~nivel, ~lugar, ~año, ~comentario,
-  "Data Clinic", "National University of Tucumán, Faculty of Natural Science and Miguel Lillo Institute", "PhD", "Tucumán, Argentina", 2021, "Biological Science, Agronomy and Biotechnology",
-  "Introduction to R programming", "National University of Tucumán, Faculty of Natural Science and Miguel Lillo Institute", "Undergraduate", "Tucumán, Argentina", 2019, "Biological Science"
-) %>% 
-  detailed_entries(
-    with = curso,
-    what = institucion,
-    where = lugar,
-    when = año,
-    why = glue::glue("Offered to {comentario} students. Level: {nivel}.")
-  )
+  ~curse, ~institution, ~level, ~year,
+  "Data Clinic", "National University of Tucumán", "graduate",  2021, 
+  "Introduction to R programming", "National University of Tucumán", "undergraduate", 2019
+) |> 
+  mutate(
+    curse_level = paste(curse, paste('(Level: ', level, ')', sep = ''), sep = ' ')
+  ) |> 
+  select(year, curse_level, institution) |> 
+  baretable()
 
 ```
 
 # Graduate courses
 
-```{r cursos_posgrado}
+```{r cursos_posgrado, results='asis'}
 
 tribble(
-  ~curso, ~institucion, ~lugar, ~año, ~duracion, ~nota,
-  'Introduction to Bayesian statistics methods in ecology', 'Universidad de Buenos Aires', 'Buenos Aires, Argentina', 2022, '45h', '10/10',
-    'Ecosystem services: concepts, tools and perspectives', 'Universidad Nacional de Cuyo', 'Mendoza, Argentina', 2022, '45h', '10/10',
-  "Data science with Python", "National University of Southern Patagonia", "Argentina (online)", 2022, "40h", "10/10",
-  "Models and data in ecology", "National University of Comahue", "Bariloche, Argenttina (online)", 2021, "40h", "9/10",
-  "Statistical tools for addressing gender metrics: a look from graph and systems theory", "National University of Tucumán", "Tucumán, Argentina", 2021, "40h", "100/100",
-  "Ecological networks", "University of São Paulo", "São Paulo, Brasil", 2020, "60h", "Excellent",
-  "Pollination Ecology", "National University of Comahue", "Bariloche, Argentina", 2019, "60h", "100/100",
-  "13° International Pollination Course", "Federal University of Jequitinhonha Valleys", "Minas Gerais, Brasil", 2019, "98h", "100/100",
-  "Advanced statistical methods in ecology and evolution", "University of the Uruguay Republic", "Maldonado, Uruguay", 2019, "60h", "100/100",
-  "Advanced statistical models using programming language R", "National University of Córdoba", "Córdoba Argentina", 2018, "40h", "100/100"
-) %>% 
-  detailed_entries(with = curso,
-                   what = institucion,
-                   where = lugar,
-                   when = año,
-                   why = glue::glue("Duration: {duracion}. Grade: {nota}"))
-
+  ~year, ~course, ~institution, ~hours, ~country,
+  2023, 'Google Earth Engine - Integral', 'REDES Center (CONICET)', 60, 'Argentina',
+  2022, 'Introduction to Bayesian statistics methods in ecology', 'University of Buenos Aires', 45, 'Argentina',
+  2022, 'Ecosystem services: concepts, tools and perspectives', 'National University of Cuyo', 45, 'Argentina',
+  2022, 'Data science with Python', 'National University of Southern Patagonia', 40, 'Argentina',
+  2021, 'Models and data in ecology', 'National University of Comahue', 40, 'Argentina',
+  2021, 'Statistical tools for addressing gender metrics', 'National University of Tucumán', 40, 'Argentina',
+  2020, 'Ecological networks', 'University of São Paulo', 60, 'Brazil',
+  2019, 'Pollination Ecology', 'National University of Comahue', 60, 'Argentina',
+  2019, '13° International Pollination Course', 'Federal University of Jequitinhonha Valleys', 98, 'Brazil',
+  2019, 'Advanced statistical methods in ecology and evolution', 'University of the Uruguay Republic', 60, 'Uruguay',
+  2018, 'Advanced statistical models using programming language R', 'National University of Córdoba', 40, 'Argentina'
+) |> 
+  mutate(h = paste(hours, 'h', sep = '')) |> 
+  select(year, course, institution, h, country) |> 
+  baretable()
+  
 ```
 
 
 # Internships
 
-```{r pasantia}
+```{r pasantia, results='asis'}
+
 tribble(
-  ~pasantia, ~institucion, ~lugar, ~año, ~duracion,
-  "Laboratory of Palynology", "National University of Tucumán, Faculty of Natural Science and Miguel Lillo Institute", "Tucumán, Argentina", 2018, "20h"
+  ~pasantia, ~institucion, ~lugar, ~year, ~duracion,
+  "Laboratory of Palynology", "National University of Tucumán", "Tucumán, Argentina", 2018, "20h"
   
-) %>% detailed_entries(with = pasantia,
-                       what = institucion,
-                       when = año,
-                       where = lugar,
-                       why = glue::glue("Duration: {duracion}"))
+) |> 
+  select(pasantia, institucion, lugar, year) |> 
+  baretable()
 
 ```
 
@@ -217,24 +231,20 @@ tribble(
 
 # Member of research groups (Colombia)
 
-```{r grupoI}
+```{r grupoI, results='asis'}
 
 tribble(
   ~grupo, ~clasificacion, ~institucion, ~vinculacion, ~fechaI, ~fechaF, ~lugar,
-  "Ecotonos (Research group in ecology, conservation, taxonomy and systematics)", "C", "University of LLanos", "Active member", "Jan 2017", "Present", "Villavicencio, Colombia",
-  "InQuiBio (An integrated research group in chemistry and biology)", "A1", "Military University Nueva granada", "Active member", "Jan 2013", "Dec 2015", "Bogotá, Colombia"
-) %>% 
-  detailed_entries(with = grupo,
-                   what = institucion,
-                   why = glue::glue("Classification: {clasificacion}."),
-                   where = lugar,
-                   when = glue::glue("{fechaI}-{fechaF}"))
+  "Ecotonos", "C", "University of LLanos", "Active member", "Jan 2017", "Present", "Villavicencio, Colombia",
+  "InQuiBio", "A1", "Military University Nueva granada", "Past member", "Jan 2013", "Dec 2015", "Bogotá, Colombia"
+) |>  
+  baretable()
 
 ```
 
 # Languages
-* Spanish.
-* English.
+-   Spanish.
+-   English.
 
 # Driver license
 * No. 1053795821. Validity: 03-06-2028. Category: B1. Issued: Colombia (03-06-2018).
