@@ -117,6 +117,10 @@ Currently, I am interested in combining different modeling approaches and field 
 
 -   **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. *Individual and population effectiveness of hummingbirds, wild and managed insects pollinating blueberry crops*.
 
+## Code and online datasets
+
+-   **Ramírez-Mejía**, A F.; Urbina-Cardona, J N; Sánchez, F (2020). Data from: Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis [Dataset]. **Biotropica**. Dryad. <https://doi.org/10.5061/dryad.sn02v6x1p>
+
 ## Theses
 
 **PhD**. 2018 - 2023. The step-by-step of pollination service in blueberry crops: patterns and mechanisms. Thesis advisors: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; independent research CONICET, assistant professor UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; assistant researcher CONICET.

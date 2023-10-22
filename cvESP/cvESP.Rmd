@@ -115,6 +115,10 @@ Actualmente, me interesa combinar diferentes técnicas de modelado y experimento
 
 -   **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. *Individual and population effectiveness of hummingbirds, wild and managed insects pollinating blueberry crops*.
 
+## Código y bases de datos
+
+-   **Ramírez-Mejía**, A F.; Urbina-Cardona, J N; Sánchez, F (2020). Data from: Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis [Dataset]. **Biotropica**. Dryad. <https://doi.org/10.5061/dryad.sn02v6x1p>
+
 ## Tésis
 
 **PhD**. 2018 - 2023. El paso a paso del servicio de polinización en cultivos de arándano: patrones y mecanismos. Director: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; Investigador independiente CONICET, profesor asistente UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; investigador asistente CONICET.
