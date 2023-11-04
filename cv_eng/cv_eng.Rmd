@@ -50,7 +50,7 @@ baretable <- function(tbl, digits = 0,
 
 tribble(
   ~degree, ~Start, ~Start_month, ~End, ~End_month, ~institution, ~place,
-  'B.Sc. Biologist', 2008 , 'July ', 2014, 'September ', 'University of Caldas (Colombia)', 'Manizales, Colombia',
+  'B.Sc. Biology', 2008 , 'July ', 2014, 'September ', 'University of Caldas (Colombia)', 'Manizales, Colombia',
   'MSc. Conservation and Use of Biodiversity', 2015 , 'August ', 2017, 'August ', 'Pontifical Javeriana University (Colombia)', 'Bogotá, Colombia',
   'Ph.D. Biological Sciences', 2018 , 'August ', 2023, 'August ', 'National University of Tucumán (Argentina)', 'Tucumán, Argentina'
 ) |> 
@@ -90,7 +90,7 @@ Currently, I am interested in combining different modeling approaches and field 
 -   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), structural equation modeling, network analysis, fuzzy logic and agent-based modeling.
 -   Statistical programming: R (advanced), Python (basic) and Stan (basic).
 -   Spatial analysis tools: Google Earth Engine (basic) and ArcGis (basic).
--   Other tools: Git, RMarkdow and Quarto.
+-   Other tools: Git, RMarkdown and Quarto.
 
 --------------------------------
 
@@ -98,6 +98,7 @@ Currently, I am interested in combining different modeling approaches and field 
 
 ## Published articles
 
+-   **Ramírez-Mejía A F**, Blendinger P, Woodcock B, Schmucki R, Escobar L, Morton R, Vieli L, Nunes-Silva P, Lomáscolo S, Morales C, Murúa M, Agostini K, & Chacoff N. **In press**. *From landscape and pollinators to crop productivity: the step-by-step of pollination service in blueberry crops*. *Journal of Applied Ecology*.
 -   Nunes-Silva Patrícia, **Ramírez-Mejía Andrés F.**, Blochtein B, Ramos J, Agostini K, Vieli L, Santanna M, Raguse-Quadros M, Maureen M., Chacoff N P, Cavigliasso P, Blendinger P G., Domingos S. **(2023)**. *Blueberry: pollination and production in South America*. ISBN: 978-65-00-65347-2. DOI: <https://doi.org/10.5281/zenodo.7770381>.
 -   **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. **(2023)** *Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm's spatial context*. *Agriculture Ecosystems and Environment*. DOI: <https://doi.org/10.1016/j.agee.2022.108229>
 -   Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. **(2022)** [*Nutrient balance and energy-acquisition effectiveness: do birds adjust their fruit diet to achieve intake targets?*](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
@@ -108,8 +109,6 @@ Currently, I am interested in combining different modeling approaches and field 
 -   **Ramírez-Mejía A F**, & Sánchez F. **(2015)**. [*Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin*](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
 
 ### Articles under review
-
--   **Ramírez-Mejía A F**, Blendinger P, Woodcock B, Schmucki R, Escobar L, Morton R, Vieli L, Nunes-Silva P, Lomáscolo S, Morales C, Murúa M, Agostini K, & Chacoff N. *The step by step of pollination service in blueberry crops*. **Second round of revision:** *Journal of Applied Ecology*.
 
 -   **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S, Woodcock B, Schmucki R & Blendinger P. *Optimal pollination thresholds to maximize blueberry production*. **First round of revision:** *Agriculture Ecosystems and Environment*
 

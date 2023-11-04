@@ -85,10 +85,10 @@ Actualmente, me interesa combinar diferentes técnicas de modelado y experimento
 
 # Habilidades técnicas
 -   Diseño experimental y colecta de datos.
--   Análisis de datos: estadística frecuentista y bayesiana (lm, glm glmm, modelos jerarquicos), modelos de ecuaciones estructurales, análisis de redes, lógica difuza, y modelos basados en agentes.
+-   Análisis de datos: estadística frecuentista y bayesiana (lm, glm glmm, modelos jerárquicos), modelos de ecuaciones estructurales, análisis de redes, lógica difusa, y modelos basados en agentes.
 -   Programación estadística: R (avanzado), Python (básico) y Stan (básico).
 -   Herramientas para análisis espaciales: Google Earth Engine (básico) y ArcGis (básico).
--   Otras herramientas: Git, RMarkdow y Quarto.
+-   Otras herramientas: Git, RMarkdown y Quarto.
 
 --------------------------------
 
@@ -96,6 +96,7 @@ Actualmente, me interesa combinar diferentes técnicas de modelado y experimento
 
 ## Artículos publicados
 
+-   **Ramírez-Mejía A F**, Blendinger P, Woodcock B, Schmucki R, Escobar L, Morton R, Vieli L, Nunes-Silva P, Lomáscolo S, Morales C, Murúa M, Agostini K, & Chacoff N. **In press**. *From landscape and pollinators to crop productivity: the step-by-step of pollination service in blueberry crops*. *Journal of Applied Ecology*.
 -   Nunes-Silva Patrícia, **Ramírez-Mejía Andrés F.**, Blochtein B, Ramos J, Agostini K, Vieli L, Santanna M, Raguse-Quadros M, Maureen M., Chacoff N P, Cavigliasso P, Blendinger P G., Domingos S. **(2023)**. *Blueberry: pollination and production in South America*. ISBN: 978-65-00-65347-2. DOI: <https://doi.org/10.5281/zenodo.7770381>.
 -   **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. **(2023)** *Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm's spatial context*. *Agriculture Ecosystems and Environment*. DOI: <https://doi.org/10.1016/j.agee.2022.108229>
 -   Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. **(2022)** [*Nutrient balance and energy-acquisition effectiveness: do birds adjust their fruit diet to achieve intake targets?*](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
@@ -107,8 +108,6 @@ Actualmente, me interesa combinar diferentes técnicas de modelado y experimento
 
 ### Artículos en revisión
 
--   **Ramírez-Mejía A F**, Blendinger P, Woodcock B, Schmucki R, Escobar L, Morton R, Vieli L, Nunes-Silva P, Lomáscolo S, Morales C, Murúa M, Agostini K, & Chacoff N. *The step by step of pollination service in blueberry crops*. **Second round of revision:** *Journal of Applied Ecology*.
-
 -   **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S, Woodcock B, Schmucki R & Blendinger P. *Optimal pollination thresholds to maximize blueberry production*. **First round of revision:** *Agriculture Ecosystems and Environment*
 
 ### Artículos en preparación
@@ -119,7 +118,7 @@ Actualmente, me interesa combinar diferentes técnicas de modelado y experimento
 
 -   **Ramírez-Mejía**, A F.; Urbina-Cardona, J N; Sánchez, F (2020). Data from: Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis [Dataset]. **Biotropica**. Dryad. <https://doi.org/10.5061/dryad.sn02v6x1p>
 
-## Tésis
+## Tesis
 
 **PhD**. 2018 - 2023. El paso a paso del servicio de polinización en cultivos de arándano: patrones y mecanismos. Director: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; Investigador independiente CONICET, profesor asistente UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; investigador asistente CONICET.
 
@@ -166,7 +165,7 @@ tribble(
   ~year, ~award,
   2017, 'Distinción al mérito académico durante MSc, Pontificia universidad Javeriana',
   2017, 'Graduado con honores CUM LAUDE durante MSc, Pontificia universidad Javeriana',
-  2017, 'MSc con mensión meritoria, Pontificia universidad Javeriana'
+  2017, 'MSc con mención meritoria, Pontificia universidad Javeriana'
 ) |> 
   baretable()
 
