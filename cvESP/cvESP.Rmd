@@ -116,9 +116,9 @@ Actualmente, me interesa combinar diferentes técnicas de modelado y experimento
 
 ## Código y bases de datos
 
--   **Ramírez-Mejía, Andrés F**. (2023). Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries [code]. Zenodo. <https://doi.org/10.5281/zenodo.10070657>
+-   **Ramírez-Mejía, Andrés F**. (2023). Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries [code]. **Journal of Applied Ecology**. Zenodo. <https://doi.org/10.5281/zenodo.10070657>
 
--   **Ramírez-Mejía, Andrés F**. et al. (2023). Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries [Dataset]. Dryad. <https://doi.org/10.5061/dryad.bg79cnphc>
+-   **Ramírez-Mejía, Andrés F**. et al. (2023). Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries [Dataset]. **Journal of Applied Ecology**. Dryad. <https://doi.org/10.5061/dryad.bg79cnphc>
 
 -   **Ramírez-Mejía, A F**.; Urbina-Cardona, J N; Sánchez, F (2020). Data from: Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis [Dataset]. **Biotropica**. Dryad. <https://doi.org/10.5061/dryad.sn02v6x1p>
 
