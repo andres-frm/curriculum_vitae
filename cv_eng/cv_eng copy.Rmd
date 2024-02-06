@@ -78,11 +78,13 @@ tribble(
 # Research interests
 
 -   Functional diversity and ecosystem services.
+-   Community ecology.
+-   Species interactions.
 -   Pollinators and mammal ecology.
 -   Landscape ecology.
 -   Statistics, programming languages and data science.
 
-Currently, I am interested in combining different modeling approaches and field experiments to understand how spatial patterns affect biodiversity and ecosystem services in agricultural landscapes of Northern Argentina.
+Currently, I am working on combining different modeling approaches and field experiments to understand how spatial patterns affect biodiversity and ecosystem services in agricultural landscapes of Northern Argentina.
 
 # Technical skills
 -   Experimental design and data collection.
@@ -205,7 +207,6 @@ tribble(
 
 -   Spanish (mother language).
 -   English (reading: excellent, speaking: good).
--   Portuguese (reading: good, speaking: acceptable)
 
 ----------------------------------
 
