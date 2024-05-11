@@ -1,10 +1,10 @@
 ---
 name: Andrés F. Ramírez-Mejía
 position: "BSc, MSc, PhD"
-address: "Instituto de Ecología Regional, UNT-CONICET \\tabularnewline Yerba Buena, Argentina."
+address: "Departamento de Ecologia, Zoologia e Genética, Instituto de Biologia, \\tabularnewline Universidade Federal de Pelotas \\tabularnewline Pelotas (RS), Brasil."
 headcolor: "414141"
 www: andres-frm.github.io
-phone: +54 9 3816627944
+phone: +55 53 999330101
 email: andresfeliper.mejia@gmail.com
 github: andres-frm
 date: "`r format(Sys.time(), '%B %Y')`"
@@ -60,34 +60,31 @@ tribble(
 
 ```
 
-# Current position
+# Posición actual
 
-```{r, results='asis'}
+**mayo 2024 - presente**. Investigador postdoctoral con doble afiliación: Departamento de Ecologia, Zoologia e Genética, Instituto de Biologia, Universidade Federal de Pelotas; Department of Zoology & Physiology, University of Wyoming. *Proyectos*: [Army Ant Followers Project](https://www.tarwaterlab.com/copy-of-panama-plumas-project), y [Hawaii-VINE. Project](https://www.tarwaterlab.com/hawaii-vine-project)
 
-tribble(
-  ~Date, ~position,
-  2023, 'Investigador postdoctoral en el Instituto de Ecología Regional, UNT-CONICET.'
-) |> 
-  baretable()
 
-```
-**Proyecto:** *Sistemas de control para el manejo del servicio de polinización en cultivos de arándanos.*
+# Posiciones pasadas
 
+-   **jul. 2023 - abr. 2024.** Investigador postdoctoral en el Instituto de Ecología Regional, UNT-CONICET. **Proyecto:** *Sistemas de control para el manejo del servicio de polinización en cultivos de arándanos.*
 
 # Intereses de investigación
 
--   Diversidad funcional y servicios ecosistémicos.
--   Ecología de polinizadores y mamíferos.
--   Ecología de paisaje.
--   Ecología de comunidades.
--   Modelos en ecología, programación estadística y ciencia de datos.
+Me interesa usar métodos cuanquitativos y experimentos de campo para estudiar cómo patrones espaciales y temporales afectan la biodiversidad, las interacciones entre especies y su rol en procesos ecosistémicos. 
 
-Actualmente, me interesa combinar diferentes técnicas de modelado y experimentos de campo, para entender cómo patrones espaciales afectan la biodiversidad y servicios ecosistémicos en paisajes agrícolas  del noroeste argentino.
+\vspace{2mm}
+
+-   Diversidad funcional y procesos ecosistémicos.
+-   Ecología de comunidades.
+-   Interacciones biológicas.
+-   Ecología de polinizadores y mamíferos.
+-   Modelos en ecología, programación estadística y ciencia de datos.
 
 # Habilidades técnicas
 -   Diseño experimental y colecta de datos.
--   Análisis de datos: estadística frecuentista y bayesiana (lm, glm glmm, modelos jerárquicos), modelos de ecuaciones estructurales, análisis de redes, lógica difusa, y modelos basados en agentes.
--   Programación estadística: R (avanzado), Python (básico) y Stan (básico).
+-   Análisis de datos: estadística frecuentista y bayesiana (lm, glm glmm, modelos jerárquicos), modelos de ecuaciones estructurales, análisis de redes, lógica difusa, y estudios de simulacipon.
+-   Programación estadística: R (avanzado), Python (básico) y Stan (intermedio).
 -   Herramientas para análisis espaciales: Google Earth Engine (básico) y ArcGis (básico).
 -   Otras herramientas: Git, RMarkdown y Quarto.
 
@@ -108,10 +105,19 @@ Actualmente, me interesa combinar diferentes técnicas de modelado y experimento
 -   **Ramírez-Mejía A F**, & Sánchez F. **(2016)**. [*Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia*](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319.
 -   **Ramírez-Mejía A F**, & Sánchez F. **(2015)**. [*Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin*](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
 
+## En revision
 
-### Artículos en preparación
+- Fontanarrosa, G. ... **Ramírez-Mejía A. F.**, et al. Over twenty years of publications in Ecology: Over-contribution of women reveals a new dimension of gender bias. *PLOSE ONE*. (segunda ronda de revisión)
 
--   **Ramírez-Mejía A F**, Lomáscolo S, & Blendinger P. *Individual and population effectiveness of hummingbirds, wild and managed insects pollinating blueberry crops*.
+## Artículos en preparación
+
+-   **Ramírez-Mejía A. F.**, Chacoff N., Cavigliasso P., Blendinger P., How much is enough? Optimizing beehive stocking densities to maximize the production of a pollinator-dependent crop.
+
+-   Monasterologo, M, **Ramírez-Mejía A. F.**, et al. Animal pollination contributes to more than half of Citrus spp. production despite the species and cultivar.
+
+-   Ladino, N., **Ramírez-Mejía A. F.**, et al. Morphometrics as a tool for undestanding morphological variation and supporting taxonomic decisions in *Prionopelta* Mayr 1866 (Formicidae: Amblyoponinae).
+
+-   Ladino, N., **Ramírez-Mejía A. F.**, et al. Optimizing measurement effort in taxonomic studies on Formicidae.
 
 ## Código y bases de datos
 
