@@ -1,7 +1,7 @@
 ---
 name: Andrés F. Ramírez-Mejía
 position: "BSc, MSc, PhD"
-address: "Departamento de Ecologia, Zoologia e Genética, Instituto de Biologia, \\tabularnewline Universidade Federal de Pelotas \\tabularnewline Pelotas (RS), Brasil."
+address: "Department of Ecology, Zoology and Genetics, Institute of Biology, \\tabularnewline Universidade Federal de Pelotas \\tabularnewline Pelotas (RS), Brasil."
 headcolor: "414141"
 www: andres-frm.github.io
 phone: +55 53 999330101
@@ -63,7 +63,7 @@ tribble(
 
 # Current position
 
-**May 2024 - present**. Postdoctoral researcher with double affiliation: Departamento de Ecologia, Zoologia e Genética, Instituto de Biologia, Universidade Federal de Pelotas; Department of Zoology & Physiology, University of Wyoming. *Projects*: [Army Ant Followers Project](https://www.tarwaterlab.com/copy-of-panama-plumas-project), and [Hawaii-VINE. Project](https://www.tarwaterlab.com/hawaii-vine-project)
+**May 2024 - present**. Postdoctoral researcher with double affiliation: Department of Ecology, Zoology and Genetics, Institute of Biology, Universidade Federal de Pelotas; Department of Zoology & Physiology, University of Wyoming. *Projects*: [Army Ant Followers Project](https://www.tarwaterlab.com/copy-of-panama-plumas-project), and [Hawaii-VINE. Project](https://www.tarwaterlab.com/hawaii-vine-project)
 
 # Past positions
 
