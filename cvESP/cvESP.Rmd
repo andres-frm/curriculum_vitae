@@ -94,6 +94,7 @@ Me interesa usar métodos cuanquitativos y experimentos de campo para estudiar c
 
 ## Artículos publicados
 
+-   Fontanarrosa G., Zarbá L., ... **Ramírez-Mejía A F** ... Piquer-Rodríguez M. Over twenty years of publications in Ecology: Over-contribution of Women reveals a new dimension of gender bias. *PLOS ONE*. **Aceptado**.
 -   **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S, Woodcock B, Schmucki R & Blendinger P. **(2024)**. Optimal pollination thresholds to maximize blueberry production. *Agriculture Ecosystems and Environment* <https://doi.org/10.1016/j.agee.2024.108903>
 -   **Ramírez-Mejía A F**, Blendinger P, Woodcock B, Schmucki R, Escobar L, Morton R, Vieli L, Nunes-Silva P, Lomáscolo S, Morales C, Murúa M, Agostini K, & Chacoff N. **2023**. *Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries*. *Journal of Applied Ecology*. DOI: <https://doi.org/10.1111/1365-2664.14553>
 -   Nunes-Silva Patrícia, **Ramírez-Mejía Andrés F.**, Blochtein B, Ramos J, Agostini K, Vieli L, Santanna M, Raguse-Quadros M, Maureen M., Chacoff N P, Cavigliasso P, Blendinger P G., Domingos S. **(2023)**. *Blueberry: pollination and production in South America*. ISBN: 978-65-00-65347-2. DOI: <https://doi.org/10.5281/zenodo.7770381>.
@@ -107,13 +108,11 @@ Me interesa usar métodos cuanquitativos y experimentos de campo para estudiar c
 
 ## En revision
 
-- Fontanarrosa, G. ... **Ramírez-Mejía A. F.**, et al. Over twenty years of publications in Ecology: Over-contribution of women reveals a new dimension of gender bias. *PLOSE ONE*. (segunda ronda de revisión)
+- -   Monasterologo, M, **Ramírez-Mejía A. F.**, et al. Animal pollination contributes to more than half of Citrus spp. production despite the species and cultivar. *Scientific reports*
 
 ## Artículos en preparación
 
 -   **Ramírez-Mejía A. F.**, Chacoff N., Cavigliasso P., Blendinger P., How much is enough? Optimizing beehive stocking densities to maximize the production of a pollinator-dependent crop.
-
--   Monasterologo, M, **Ramírez-Mejía A. F.**, et al. Animal pollination contributes to more than half of Citrus spp. production despite the species and cultivar.
 
 -   Ladino, N., **Ramírez-Mejía A. F.**, et al. Morphometrics as a tool for undestanding morphological variation and supporting taxonomic decisions in *Prionopelta* Mayr 1866 (Formicidae: Amblyoponinae).
 
