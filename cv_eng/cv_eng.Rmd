@@ -71,20 +71,22 @@ tribble(
 
 # Research interests
 
-Currently, I am interested in using quantitative methods and field experiments to study how spatial and temporal patterns affect biodiversity, species interactions and the consequences for ecosystem processes.
+I am an ecologist with a deep curiosity for understanding how species interactions and functional diversity mediate ecological processes. My background has involved mammals, birds, and pollinators as model systems and the use of quantitative methods and field experiments to address my questions.
 
 \vspace{2mm}
 
--   Functional diversity and ecosystem services.
--   Community ecology.
--   Species interactions.
--   Pollinators and mammal ecology.
--   Ecological modeling, statistical programming and data science.
+-   Ecological interactions
+-   Pollination and frugivory
+-   Ecosystem services
+-   Community ecology
+-   Functional diversity
+-   R programming
+-   Bayesian statistics
 
 # Technical skills
 -   Experimental design and data collection.
--   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), structural equation modeling, network analysis, fuzzy logic and simulation studies.
--   Statistical programming: R (advanced), Python (basic) and Stan (basic).
+-   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), Gaussian process models, time series analysis, structural equation modeling, network analysis, fuzzy logic and simulation studies.
+-   Programming languages: R (advanced), Python (basic) and Stan (basic).
 -   Spatial analysis tools: Google Earth Engine (basic) and ArcGis (basic).
 -   Other tools: Git, RMarkdown and Quarto.
 
@@ -98,28 +100,32 @@ Currently, I am interested in using quantitative methods and field experiments t
 -   Monasterologo, M, **Ramírez-Mejía A. F.**, et al. **(2024)**. Animal pollination contributes to more than half of Citrus spp. production despite the species and cultivar. *Scientific reports*, vol 14, Article number: 22309.  <https://www.nature.com/articles/s41598-024-73591-6>.
 -   Fontanarrosa G., Zarbá L., ... **Ramírez-Mejía A. F.** ... Piquer-Rodríguez M. **(2024)**. Over twenty years of publications in Ecology: Over-contribution of Women reveals a new dimension of gender bias. *PLOS ONE*.  <https://doi.org/10.1371/journal.pone.0307813>
 -   **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S, Woodcock B, Schmucki R & Blendinger P. **(2024)**. Optimal pollination thresholds to maximize blueberry production. *Agriculture Ecosystems and Environment* <https://doi.org/10.1016/j.agee.2024.108903>
--   **Ramírez-Mejía A F**, Blendinger P, Woodcock B, Schmucki R, Escobar L, Morton R, Vieli L, Nunes-Silva P, Lomáscolo S, Morales C, Murúa M, Agostini K, & Chacoff N. **2023**. *Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries*. *Journal of Applied Ecology*. DOI: <https://doi.org/10.1111/1365-2664.14553>
--   Nunes-Silva Patrícia, **Ramírez-Mejía Andrés F.**, Blochtein B, Ramos J, Agostini K, Vieli L, Santanna M, Raguse-Quadros M, Maureen M., Chacoff N P, Cavigliasso P, Blendinger P G., Domingos S. **(2023)**. *Blueberry: pollination and production in South America*. ISBN: 978-65-00-65347-2. DOI: <https://doi.org/10.5281/zenodo.7770381>.
--   **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. **(2023)** *Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm's spatial context*. *Agriculture Ecosystems and Environment*. DOI: <https://doi.org/10.1016/j.agee.2022.108229>
+-   **Ramírez-Mejía A F**, Blendinger P, Woodcock B, Schmucki R, Escobar L, Morton R, Vieli L, Nunes-Silva P, Lomáscolo S, Morales C, Murúa M, Agostini K, & Chacoff N. **(2023)**. Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries. *Journal of Applied Ecology*. DOI: <https://doi.org/10.1111/1365-2664.14553>
+-   Nunes-Silva Patrícia, **Ramírez-Mejía Andrés F.**, Blochtein B, Ramos J, Agostini K, Vieli L, Santanna M, Raguse-Quadros M, Maureen M., Chacoff N P, Cavigliasso P, Blendinger P G., Domingos S. **(2023)**. Blueberry: pollination and production in South America. ISBN: 978-65-00-65347-2. DOI: <https://doi.org/10.5281/zenodo.7770381>.
+-   **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. **(2023)** Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm's spatial context. *Agriculture Ecosystems and Environment*. DOI: <https://doi.org/10.1016/j.agee.2022.108229>
 -   Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. **(2022)** [*Nutrient balance and energy-acquisition effectiveness: do birds adjust their fruit diet to achieve intake targets?*](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
--   **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. **(2022)**. [*The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat*](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: <doi:10.1017/S026646742100047X>
+-   **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. **(2022)**. [*The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat*](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: <https://10.1017/S026646742100047X>
 -   **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. **(2021)**. [*Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation*](https://doi.org/10.1676/19-54). *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
--   **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. **(2020)** [*Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis*](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: doi.org/10.1111/btp.12816.
--   **Ramírez-Mejía A F**, & Sánchez F. **(2016)**. [*Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia*](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: doi.org/10.4404/hystrix-27.2-11319.
--   **Ramírez-Mejía A F**, & Sánchez F. **(2015)**. [*Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin*](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: dx.doi.org/10.15560/11.2.1582.
+-   **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. **(2020)** [*Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis*](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: <https://doi.org/10.1111/btp.12816>.
+-   **Ramírez-Mejía A F**, & Sánchez F. **(2016)**. [*Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia*](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: <https://doi.org/10.4404/hystrix-27.2-11319>.
+-   **Ramírez-Mejía A F**, & Sánchez F. **(2015)**. [*Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin*](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: <https://dx.doi.org/10.15560/11.2.1582>.
 
 ## Under review
 
+-   **Ramírez-Mejía A. F.**, Mary De Aquino, Michael Castaño Díaz, Juliana Hinz Wolter, Henry S. Pollock, J. Patrick Kelley, Jeferson Vizentin-Bugoni & Corey E. Tarwater. Biotic and abiotic factors directly and indirectly impact the structure of non-trophic networks across a rainfall gradient. **Ecology**. **Role: first author**
 
 ## Articles in preparation
 
--   **Ramírez-Mejía A. F.**, Mary De Aquino, Jeferson Vizentin-Bugoni, J. Patrick Kelley, Corey E. Tarwater, Henry S. Pollock, Juliana Wolter. Structure of army-ant-following birds interaction networks is modulated by cumulative rainfall and ant swarm at different temporal scales.
-
--   Ladino, N., **Ramírez-Mejía A. F.**, et al. Morphometrics as a tool for undestanding morphological variation and supporting taxonomic decisions in *Prionopelta* Mayr 1866 (Formicidae: Amblyoponinae).
-
--   Ladino, N., **Ramírez-Mejía A. F.**, et al. Optimizing measurement effort in taxonomic studies on Formicidae.
+-   Kimberley Jordan ... **Ramírez-Mejía A. F.**..., Corey E. Tarwater. Testing the space-for-time assumption: precipitation effects on avian body condition across scales. **Role: coauthor, data analysis**
+-   Elizabeth Howard ... **Ramírez-Mejía A. F.**..., Corey E. Tarwater. Testing long standing assumptions about army ant swarms: how profitability and dominance alter space use in birds. **Role: coauthor, data analysis**
+-   **Ramírez-Mejía A. F.** Drivers of rarity and commonness in Neotropical bats: the role of the landscape, functional traits and intraspecific functional space. **Role: first author**
+-   **Ramírez-Mejía A. F.**, A. Carolina Monmany, Roxana Aragón, Carolina Cuezzo, Natalia Ladino, Natalí Villalba, A. Carolina Jozami, Alberto Slanis, Mariano Lucia, Leopoldo Alvarez & Natacha P. Chacoff. Low opportunity cost areas in large-scale monoculture for pollinator conservatio. **Role: first author**
+-   Ladino, N., **Ramírez-Mejía A. F.**, et al. Morphometrics as a tool for undestanding morphological variation and supporting taxonomic decisions in *Prionopelta* Mayr 1866 (Formicidae: Amblyoponinae). **Role: coauthor, data analysis**
+-   Ladino, N., **Ramírez-Mejía A. F.**, et al. Optimizing measurement effort in taxonomic studies on Formicidae. **Role: coauthor, data analysis**
 
 ## Code and online datasets
+
+-   **Ramírez-Mejía A. F.**, Chacoff N., Cavigliasso P., & Blendinger P. (2024). How much is enough? Optimizing beehive stocking densities to maximize the production of a pollinator-dependent crop. *Ecological modelling*, vol 498, article number: <https://doi.org/10.1016/j.ecolmodel.2024.110891>. GitHub repository: <https://github.com/andres-frm/postdoc_cropPol>
 
 -   **Ramírez-Mejía, Andrés F**. (2023). Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries [code]. **Journal of Applied Ecology**. Zenodo. <https://doi.org/10.5281/zenodo.10070657>
 
@@ -255,6 +261,7 @@ tribble(
 # Languages
 -   Spanish.
 -   English.
+-   Portuguese
 
 # Driver license
 * No. 1053795821. Validity: 03-06-2028. Category: B1. Issued: Colombia (03-06-2018).
