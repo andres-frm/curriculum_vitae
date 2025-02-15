@@ -71,7 +71,8 @@ tribble(
 
 # Intereses de investigación
 
-Soy un ecólogo interesado en entender cómo las interacciones entre especies y la diversidad funcional explican el funcionamiento de procesos ecológicos. Durante mi trayectoria he usado mamíferos, aves y polinizadores para como modelos de estudio, y métodos quantitativos y experimentos de campo para abordar mis investigaciones.
+Soy un ecólogo interesado en entender cómo las interacciones entre especies y la diversidad funcional explican el funcionamiento de procesos ecológicos. Durante mi trayectoria he usado mamíferos, aves y polinizadores como modelos de estudio, y métodos cuantitativos y experimentos de campo para abordar mis investigaciones.
+
 
 \vspace{2mm}
 
