@@ -63,7 +63,7 @@ tribble(
 
 # Current position
 
-**May 2024 - present**. Postdoctoral researcher with double affiliation: Department of Ecology, Zoology and Genetics, Institute of Biology, Universidade Federal de Pelotas; Department of Zoology & Physiology, University of Wyoming. *Projects*: [Army Ant Followers Project](https://www.tarwaterlab.com/copy-of-panama-plumas-project), and [Hawaii-VINE. Project](https://www.tarwaterlab.com/hawaii-vine-project)
+**May 2024 - present**. Postdoctoral researcher with double affiliation: Department of Ecology, Zoology and Genetics, Institute of Biology, Universidade Federal de Pelotas; Department of Zoology & Physiology, University of Wyoming. *Projects*: [Army Ant Followers Project](https://www.tarwaterlab.com/copy-of-panama-plumas-project), and [Hawaii-VINE  Project.](https://www.tarwaterlab.com/hawaii-vine-project)
 
 # Past positions
 
@@ -85,10 +85,11 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 
 # Technical skills
 -   Experimental design and data collection.
+-   Causal inference.
 -   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), Gaussian process models, time series analysis, structural equation modeling, network analysis, fuzzy logic and simulation studies.
 -   Programming languages: R (advanced), Python (basic) and Stan (basic).
--   Spatial analysis tools: Google Earth Engine (basic) and ArcGis (basic).
--   Other tools: Git, RMarkdown and Quarto.
+-   Spatial analysis tools: Google Earth Engine (basic), ArcGis (basic) and R packages: *terra*, *raster*, and *sf* (basic).
+-   Other tools: Git and GitHub for version control. RMarkdown and Quarto for report generation.
 
 --------------------------------
 
@@ -96,7 +97,7 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 
 ## Published articles
 
--   **Ramírez-Mejía A. F.**, Chacoff N., Cavigliasso P., Blendinger P. **(2024)**. How much is enough? Optimizing beehive stocking densities to maximize the production of a pollinator-dependent crop. **Ecological modelling**, vol 498, article number: <https://doi.org/10.1016/j.ecolmodel.2024.110891>.
+-   **Ramírez-Mejía A. F.**, Chacoff N., Cavigliasso P., Blendinger P. **(2024)**. How much is enough? Optimizing beehive stocking densities to maximize the production of a pollinator-dependent crop. *Ecological modelling*, vol 498, article number: <https://doi.org/10.1016/j.ecolmodel.2024.110891>.
 -   Monasterologo, M, **Ramírez-Mejía A. F.**, et al. **(2024)**. Animal pollination contributes to more than half of Citrus spp. production despite the species and cultivar. *Scientific reports*, vol 14, Article number: 22309.  <https://www.nature.com/articles/s41598-024-73591-6>.
 -   Fontanarrosa G., Zarbá L., ... **Ramírez-Mejía A. F.** ... Piquer-Rodríguez M. **(2024)**. Over twenty years of publications in Ecology: Over-contribution of Women reveals a new dimension of gender bias. *PLOS ONE*.  <https://doi.org/10.1371/journal.pone.0307813>
 -   **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S, Woodcock B, Schmucki R & Blendinger P. **(2024)**. Optimal pollination thresholds to maximize blueberry production. *Agriculture Ecosystems and Environment* <https://doi.org/10.1016/j.agee.2024.108903>
@@ -112,7 +113,7 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 
 ## Under review
 
--   **Ramírez-Mejía A. F.**, Mary De Aquino, Michael Castaño Díaz, Juliana Hinz Wolter, Henry S. Pollock, J. Patrick Kelley, Jeferson Vizentin-Bugoni & Corey E. Tarwater. Biotic and abiotic factors directly and indirectly impact the structure of non-trophic networks across a rainfall gradient. **Ecology**. **Role: first author**
+-   **Ramírez-Mejía A. F.**, Mary De Aquino, Michael Castaño Díaz, Juliana Hinz Wolter, Henry S. Pollock, J. Patrick Kelley, Jeferson Vizentin-Bugoni & Corey E. Tarwater. Biotic and abiotic factors directly and indirectly impact the structure of non-trophic networks across a rainfall gradient. *Journal: Ecology*. **Role: first author**
 
 ## Articles in preparation
 
@@ -120,8 +121,7 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 -   Elizabeth Howard ... **Ramírez-Mejía A. F.**..., Corey E. Tarwater. Testing long standing assumptions about army ant swarms: how profitability and dominance alter space use in birds. **Role: coauthor, data analysis**
 -   **Ramírez-Mejía A. F.** Drivers of rarity and commonness in Neotropical bats: the role of the landscape, functional traits and intraspecific functional space. **Role: first author**
 -   **Ramírez-Mejía A. F.**, A. Carolina Monmany, Roxana Aragón, Carolina Cuezzo, Natalia Ladino, Natalí Villalba, A. Carolina Jozami, Alberto Slanis, Mariano Lucia, Leopoldo Alvarez & Natacha P. Chacoff. Low opportunity cost areas in large-scale monoculture for pollinator conservatio. **Role: first author**
--   Ladino, N., **Ramírez-Mejía A. F.**, et al. Morphometrics as a tool for undestanding morphological variation and supporting taxonomic decisions in *Prionopelta* Mayr 1866 (Formicidae: Amblyoponinae). **Role: coauthor, data analysis**
--   Ladino, N., **Ramírez-Mejía A. F.**, et al. Optimizing measurement effort in taxonomic studies on Formicidae. **Role: coauthor, data analysis**
+
 
 ## Code and online datasets
 
@@ -259,8 +259,8 @@ tribble(
 ```
 
 # Languages
--   Spanish.
--   English.
+-   Spanish
+-   English
 -   Portuguese
 
 # Driver license
