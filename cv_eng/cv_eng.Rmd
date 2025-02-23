@@ -86,7 +86,7 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 # Technical skills
 -   Experimental design and data collection.
 -   Causal inference.
--   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), Gaussian process models, time series analysis, structural equation modeling, network analysis, fuzzy logic and simulation studies.
+-   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), Gaussian process models, time series analysis, structural equation modeling, network analysis, and simulation studies.
 -   Programming languages: R (advanced), Python (basic) and Stan (basic).
 -   Spatial analysis tools: Google Earth Engine (basic), ArcGis (basic) and R packages: *terra*, *raster*, and *sf* (basic).
 -   Other tools: Git and GitHub for version control. RMarkdown and Quarto for report generation.
@@ -144,7 +144,7 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 ## Oral Presentations
 
 
-**2021**. *Blueberry pollination at the NOA, are wild species important?*. Tucumán, Argentina.
+**2021**. *Blueberry pollination at the NOA, are wild species important?* Tucumán, Argentina.
 
 **2014**. *Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation*. II Symposium of small carnivores. IV Colombian congres fo zoology. Cartagena, Colombia.
 
