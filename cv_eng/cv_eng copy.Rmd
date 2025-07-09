@@ -113,10 +113,14 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 
 ## Under review
 
--   **Ramírez-Mejía A. F.**, Mary De Aquino, Michael Castaño Díaz, Juliana Hinz Wolter, Henry S. Pollock, J. Patrick Kelley, Jeferson Vizentin-Bugoni & Corey E. Tarwater. Biotic and abiotic factors directly and indirectly impact the structure of non-trophic networks across a rainfall gradient. *Journal: Ecology*. **Role: first author**
+-   **Ramírez-Mejía A. F.**, Mary De Aquino, Michael Castaño Díaz, Juliana Hinz Wolter, Henry S. Pollock, J. Patrick Kelley, Jeferson Vizentin-Bugoni & Corey E. Tarwater. Biotic and abiotic factors directly and indirectly impact the structure of non-trophic networks across a rainfall gradient. *Journal: Ecology* .*ID: ECY24-1291*. **Role: first author**
+-   Laura Gómez-Murillo ... **Ramírez-Mejía A. F.**..., Corey E. Tarwater. Rainfall alters network structure while fragmentation results in the breakdown of a mixed-species group of birds. *Journal: Oikos*. **Role: coauthor, data analysis**
+-   Juliana Wolter ... **Ramírez-Mejía A. F.**..., Rafael Dias. Intrinsic and extrinsic drivers modulate the functional diversity of frugivorous birds interacting with individual trees within a population. *Journal: Ecosphere*. **Role: coauthor, data analysis**
+
 
 ## Articles in preparation
 
+-   **Ramírez-Mejía A. F.**, Corey E. Tarwater, J. Patrick Kelley, Jinelle Sperry, Jeff Foster, Donald R. Drake, J., and Jeferson Vizentin-Bugoni. What drives temporal dynamics of seed-dispersal networks? The roles of climatic patterns, plant phenology and interaction functional space. **Role: first author**
 -   Kimberley Jordan ... **Ramírez-Mejía A. F.**..., Corey E. Tarwater. Testing the space-for-time assumption: precipitation effects on avian body condition across scales. **Role: coauthor, data analysis**
 -   Elizabeth Howard ... **Ramírez-Mejía A. F.**..., Corey E. Tarwater. Testing long standing assumptions about army ant swarms: how profitability and dominance alter space use in birds. **Role: coauthor, data analysis**
 -   **Ramírez-Mejía A. F.** Drivers of rarity and commonness in Neotropical bats: the role of the landscape, functional traits and intraspecific functional space. **Role: first author**
@@ -141,14 +145,6 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 
 **BSc**. 2008 - 2014. Activity patterns, habitat use, and mammals richness in native and reforested forests at the Colombian Andes. Thesis advisor: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
 
-## Oral Presentations
-
-
-**2021**. *Blueberry pollination at the NOA, are wild species important?* Tucumán, Argentina.
-
-**2014**. *Activity and habitat use of soil forage mammals in an Andean forest and a Eucalyptus reforestation*. II Symposium of small carnivores. IV Colombian congres fo zoology. Cartagena, Colombia.
-
-**2014**. *Species richness, use and traditional knowledge of mammals in the National Natural Park Los Nevados*. III Symposium of regional biology. Armenia, Colombia.
 
 -----------------------------
 
@@ -193,8 +189,9 @@ tribble(
 ```{r docente, results='asis'}
 tribble(
   ~curse, ~institution, ~level, ~year,
-  "Data Clinic", "National University of Tucumán", "graduate",  2021, 
-  "Introduction to R programming", "National University of Tucumán", "undergraduate", 2019
+  "Introduction to R programming", 'Universidade Federal de Pelotas (Brazil)', 'graduate', 2024,
+  "Data Clinic", "National University of Tucumán (Argentina)", "graduate",  2021, 
+  "Introduction to R programming", "National University of Tucumán (Argentina)", "undergraduate", 2019
 ) |> 
   mutate(
     curse_level = paste(curse, paste('(Level: ', level, ')', sep = ''), sep = ' ')
@@ -229,21 +226,9 @@ tribble(
 ```
 
 
-# Internships
-
-```{r pasantia, results='asis'}
-
-tribble(
-  ~pasantia, ~institucion, ~lugar, ~year, ~duracion,
-  "Laboratory of Palynology", "National University of Tucumán", "Tucumán, Argentina", 2018, "20h"
-  
-) |> 
-  select(pasantia, institucion, lugar, year) |> 
-  baretable()
-
-```
 
 # Languages
 -   Spanish
 -   English
 -   Portuguese
+
