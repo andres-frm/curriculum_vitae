@@ -148,42 +148,6 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 
 -----------------------------
 
-# Fellowships 
-
--   **2023**. Postdoctoral fellowship financed by CONICET, Argentina. RESOL‐2023‐1026‐APN‐DIR#CONICET.
-
--   **2017**. PhD fellowship financed by CONICET, Argentina. N° 4122. Thesis: Plant-animal interaction in blueberry crops (*Vaccinium corymbosum*, Ericaceae) and indirect effect with the Yungas forest.
-
-# Research grants
-
-```{r results='asis'}
-
-tribble(
-  ~year, ~proyect, ~funding, ~grant,
-  2020, 'Ecosystem services provided by hummingbirds (Trochilidae)','Research grant Aves Argentinas (ARG)', 640,
-  2018, 'Ecosystem services provided by hummingbirds (Trochilidae)','Neotropical Ornithological Society (USA)', 1000,
-) |> 
-  mutate(US = paste(paste('\\$', grant, sep = ''), 'US')) |> 
-  select(year, proyect, funding, US) |> 
-  baretable()
-
-```
-
-# Distinctions
-
-```{r, results='asis'}
-
-tribble(
-  ~year, ~award,
-  2017, 'Academic merit award. During MSc degree at Pontifical Javeriana University',
-  2017, 'Graduated with honors CUM LAUDE. During MSc degree at Pontifical Javeriana University',
-  2017, 'MSc thesis with honorary mention. During MSc degree at Pontifical Javeriana University'
-) |> 
-  baretable()
-
-```
-
-
 # Teaching experience
 
 ```{r docente, results='asis'}
@@ -225,7 +189,25 @@ tribble(
   
 ```
 
+# Fellowships 
 
+-   **2023**. Postdoctoral fellowship financed by CONICET, Argentina. RESOL‐2023‐1026‐APN‐DIR#CONICET.
+
+-   **2017**. PhD fellowship financed by CONICET, Argentina. N° 4122. Thesis: Plant-animal interaction in blueberry crops (*Vaccinium corymbosum*, Ericaceae) and indirect effect with the Yungas forest.
+
+# Distinctions
+
+```{r, results='asis'}
+
+tribble(
+  ~year, ~award,
+  2017, 'Academic merit award. During MSc degree at Pontifical Javeriana University',
+  2017, 'Graduated with honors CUM LAUDE. During MSc degree at Pontifical Javeriana University',
+  2017, 'MSc thesis with honorary mention. During MSc degree at Pontifical Javeriana University'
+) |> 
+  baretable()
+
+```
 
 # Languages
 -   Spanish
