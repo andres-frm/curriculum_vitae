@@ -86,7 +86,7 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 # Technical skills
 -   Experimental design and data collection.
 -   Causal inference.
--   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), Gaussian process models, time series analysis, structural equation modeling, network analysis, and simulation studies.
+-   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), Gaussian process models, time series analysis, Bayesian networks, structural equation modeling, network analysis, and simulation studies.
 -   Programming languages: R (advanced), Python (basic) and Stan (basic).
 -   Spatial analysis tools: Google Earth Engine (basic), ArcGis (basic) and R packages: *terra*, *raster*, and *sf* (basic).
 -   Other tools: Git and GitHub for version control. RMarkdown and Quarto for report generation.
@@ -111,20 +111,32 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 -   **Ramírez-Mejía A F**, & Sánchez F. **(2016)**. [*Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia*](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: <https://doi.org/10.4404/hystrix-27.2-11319>.
 -   **Ramírez-Mejía A F**, & Sánchez F. **(2015)**. [*Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin*](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: <https://dx.doi.org/10.15560/11.2.1582>.
 
+## Accepted
+
+- Juliana Wolter ... **Ramírez-Mejía A. F.**..., Rafael Dias. Intrinsic and extrinsic drivers shape frugivore functional diversity within a tree population. *Journal: Ecosphere*. **Role: coauthor, data analysis**
+
 ## Under review
 
--   **Ramírez-Mejía A. F.**, Mary De Aquino, Michael Castaño Díaz, Juliana Hinz Wolter, Henry S. Pollock, J. Patrick Kelley, Jeferson Vizentin-Bugoni & Corey E. Tarwater. Biotic and abiotic factors directly and indirectly impact the structure of non-trophic networks across a rainfall gradient. *Journal: Ecology* .*ID: ECY24-1291*. **Role: first author**
--   Laura Gómez-Murillo ... **Ramírez-Mejía A. F.**..., Corey E. Tarwater. Rainfall alters network structure while fragmentation results in the breakdown of a mixed-species group of birds. *Journal: Oikos*. **Role: coauthor, data analysis**
--   Juliana Wolter ... **Ramírez-Mejía A. F.**..., Rafael Dias. Intrinsic and extrinsic drivers modulate the functional diversity of frugivorous birds interacting with individual trees within a population. *Journal: Ecosphere*. **Role: coauthor, data analysis**
+-   **Ramírez-Mejía A. F.**, Mary De Aquino, Michael Castaño Díaz, Juliana Hinz Wolter, Henry S. Pollock, J. Patrick Kelley, Jeferson Vizentin-Bugoni & Corey E. Tarwater. Biotic and abiotic factors directly and indirectly impact the structure of non-trophic networks across a rainfall gradient. *Journal: Ecology*. **Role: first author**
+
+-   Laura Gómez-Murillo, Jeferson Vizentin-Bugoni, **Ramírez-Mejía A. F.**, Corey E. Tarwater. Rainfall alters network structure while fragmentation results in the breakdown of a mixed-species group of birds. *Journal: Oecologia*. **Role: coauthor, data analysis**
+
+-   Elizabeth J. Howard, **Andrés F. Ramírez-Mejía**, Michael Castaño, Mary De Aquino, Henry S. Pollock, Jefferson Vizentin-Bugoni, and Corey E. Tarwater. Testing long standing assumptions about army ant swarms: how profitability and dominance alter space use in birds. *Journal: Behavioral Ecology* .**Role: coauthor, data analysis**
+
+-  Jordan, Kimberley; **Ramírez-Mejía, Andrés F**.; Wilcox, Rebecca C.; Brawn, Jeffrey ; Alfonso, Camilo; Tarwater, Corey. Testing the space-for-time assumption and the hygric niche hypothesis using precipitation effects on avian body condition. *Journal: Proceedings of the Royal Society B: Biological Sciences*. **Role: coauthor, data analysis**
+
+-   **Andrés F. Ramírez-Mejía**, Corey E. Tarwater, J. Patrick Kelley, Jinelle H. Sperry, Jeffrey T. Foster, Donald R. Drake, and Jeferson Vizentin-Bugoni. Temporal dynamics of seed-dispersal networks: Disentangling the role of direct biotic and abiotic factors and bottom-up processes. *Journal: Ecology*. **Role: first author**
+
+-  **Andrés F. Ramírez-Mejía**, Francisco Sánchez, J. Nicolás Urbina-Cardona & Natalia Ladino. Functional divergence drives the prevalence of low-abundance species in bat assemblages. *Journal: Functional Ecology*. **Role: first author**
 
 
 ## Articles in preparation
 
--   **Ramírez-Mejía A. F.**, Corey E. Tarwater, J. Patrick Kelley, Jinelle Sperry, Jeff Foster, Donald R. Drake, J., and Jeferson Vizentin-Bugoni. What drives temporal dynamics of seed-dispersal networks? The roles of climatic patterns, plant phenology and interaction functional space. **Role: first author**
--   Kimberley Jordan ... **Ramírez-Mejía A. F.**..., Corey E. Tarwater. Testing the space-for-time assumption: precipitation effects on avian body condition across scales. **Role: coauthor, data analysis**
--   Elizabeth Howard ... **Ramírez-Mejía A. F.**..., Corey E. Tarwater. Testing long standing assumptions about army ant swarms: how profitability and dominance alter space use in birds. **Role: coauthor, data analysis**
--   **Ramírez-Mejía A. F.** Drivers of rarity and commonness in Neotropical bats: the role of the landscape, functional traits and intraspecific functional space. **Role: first author**
+-   Mauro Galetti,... **Ramírez-Mejía A. F.**... Measuring the macroecological and local effects on plant-animal interaction using artificial fruits. **Role: coauthor, data analysis**
+
 -   **Ramírez-Mejía A. F.**, A. Carolina Monmany, Roxana Aragón, Carolina Cuezzo, Natalia Ladino, Natalí Villalba, A. Carolina Jozami, Alberto Slanis, Mariano Lucia, Leopoldo Alvarez & Natacha P. Chacoff. Low opportunity cost areas in large-scale monoculture for pollinator conservatio. **Role: first author**
+
+-   Mary De Aquino1, Henry S. Pollock, J. Patrick Kelley, **Andrés F. Ramírez-Mejía**, Michael Castaño Díaz1, Jeferson Vizentin-Bugoni  & Corey E. Tarwater. Species’ roles, specialization, and the factors that influence roles in mixed-species animal groups. **Role: review**
 
 
 ## Code and online datasets
