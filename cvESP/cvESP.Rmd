@@ -51,7 +51,8 @@ tribble(
   ~degree, ~Start, ~Start_month, ~End, ~End_month, ~institution, ~place,
   'B.Sc. Biología', 2008 , 'Julio ', 2014, 'Septiembre ', 'Universidad de Caldas (Colombia)', 'Manizales, Colombia',
   'MSc. Conservación y Uso de Biodiversidad', 2015 , 'Agosto ', 2017, 'Agosto ', 'Pontificia Universidad Javeriana (Colombia)', 'Bogotá, Colombia',
-  'Ph.D. Ciencias Biológicas', 2018 , 'Agosto ', 2023, 'Agosto ', 'Universidad Nacional de Tucumán (Argentina)', 'Tucumán, Argentina'
+  'Ph.D. Ciencias Biológicas', 2018 , 'Agosto ', 2023, 'Agosto ', 'Universidad Nacional de Tucumán (Argentina)', 'Tucumán, Argentina', 
+  'MBA Data science', 2026, 'Febrero ', 2027, 'Abril', 'Universidad de São Paulo (Brasil)', 'São Paulo, Brasil'
 ) |> 
   mutate(Date = paste(Start_month, Start, ' -- ', End_month, End, sep = '')) |> 
   detailed_entries(what = degree, 
@@ -127,7 +128,7 @@ Soy un ecólogo interesado en entender cómo las interacciones entre especies y 
 
 ## Artículos en preparación
 
--   Mauro Galetti,... **Ramírez-Mejía A. F.**... Measuring the macroecological and local effects on plant-animal interaction using artificial fruits. **Role: coauthor, data analysis**
+-   Mauro Galetti,... **Ramírez-Mejía A. F.**... Island Biogeography Shapes Fruit-Frugivore Interactions . **Role: coauthor, data analysis**
 
 -   **Ramírez-Mejía A. F.**, A. Carolina Monmany, Roxana Aragón, Carolina Cuezzo, Natalia Ladino, Natalí Villalba, A. Carolina Jozami, Alberto Slanis, Mariano Lucia, Leopoldo Alvarez & Natacha P. Chacoff. Low opportunity cost areas in large-scale monoculture for pollinator conservatio. **Role: first author**
 
