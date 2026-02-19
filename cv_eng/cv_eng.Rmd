@@ -143,6 +143,8 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 
 ## Code and online datasets
 
+-   **Ramírez-Mejía, A.F.**; Blendinger, P.G.; Woodcock, B.A.; Schmucki, R.; Chacoff, N.P. (2024). Wild bee associations with blueberry crops in Argentina, 2020-2021. NERC EDS Environmental Information Data Centre. <https://doi.org/10.5285/7756e3fb-0305-48d7-958e-338c02fa33fd>
+
 -   **Ramírez-Mejía A. F.**, Chacoff N., Cavigliasso P., & Blendinger P. (2024). How much is enough? Optimizing beehive stocking densities to maximize the production of a pollinator-dependent crop. *Ecological modelling*, vol 498, article number: <https://doi.org/10.1016/j.ecolmodel.2024.110891>. GitHub repository: <https://github.com/andres-frm/postdoc_cropPol>
 
 -   **Ramírez-Mejía, Andrés F**. (2023). Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries [code]. **Journal of Applied Ecology**. Zenodo. <https://doi.org/10.5281/zenodo.10070657>
