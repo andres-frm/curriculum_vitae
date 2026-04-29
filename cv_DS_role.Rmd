@@ -1,0 +1,228 @@
+---
+name: Andrés F. Ramírez-Mejía
+position: "BSc, MSc, PhD"
+address: "Department of Ecology, Zoology and Genetics, Institute of Biology, \\tabularnewline Universidade Federal de Pelotas \\tabularnewline Pelotas (RS), Brasil."
+headcolor: "414141"
+www: andres-frm.github.io
+phone: +55 53 999330101
+email: andresfeliper.mejia@gmail.com
+github: andres-frm
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
+fontsize: 10pt
+---
+
+
+
+```{r setup, include=FALSE, results='hide', warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+pks <- c('vitae', 'tibble', 'tidyverse')
+
+sapply(pks, library, character.only = T)
+
+baretable <- function(tbl, digits = 0,
+                      include.colnames = FALSE, include.rownames = FALSE,
+                      hline.after = NULL,
+                      size = getOption("xtable.size", NULL),
+                      add.to.row = getOption("xtable.add.to.row", NULL),
+                      longtable = FALSE,
+                      ...) {
+  xtable::xtable(tbl, digits = digits, ...) |>
+    print(
+      include.colnames = include.colnames,
+      include.rownames = include.rownames,
+      hline.after = hline.after,
+      comment = FALSE,
+      tabular.environment = if_else(longtable, "longtable", "tabular"),
+      floating = FALSE,
+      size = size,
+      add.to.row = add.to.row,
+      sanitize.text.function = function(x) {
+        x
+      }
+    )
+}
+
+```
+# Education
+
+```{r educacion, results='asis'}
+
+tribble(
+  ~degree, ~Start, ~Start_month, ~End, ~End_month, ~institution, ~place,
+  'B.Sc. Biology', 2008 , 'July ', 2014, 'September ', 'University of Caldas (Colombia)', 'Manizales, Colombia',
+  'MSc. Conservation and Use of Biodiversity', 2015 , 'August ', 2017, 'August ', 'Pontifical Javeriana University (Colombia)', 'Bogotá, Colombia',
+  'Ph.D. Biological Sciences', 2018 , 'August ', 2023, 'August ', 'National University of Tucumán (Argentina)', 'Tucumán, Argentina',
+  'MBA Data Science', 2026, 'February ', 2027, 'April ', 'Universidade de São Paulo (Brazil)', 'São Paulo, Brazil'
+) |> 
+  mutate(Date = paste(Start_month, Start, ' -- ', End_month, End, sep = '')) |> 
+  detailed_entries(what = degree, 
+                   when = Date,
+                   where = institution)
+
+```
+
+# Current position
+
+**May 2024 - present**. Postdoctoral researcher with double affiliation: Department of Ecology, Zoology and Genetics, Institute of Biology, Universidade Federal de Pelotas; Department of Zoology & Physiology, University of Wyoming. *Projects*: [Army Ant Followers Project](https://www.tarwaterlab.com/copy-of-panama-plumas-project), and [Hawaii-VINE  Project.](https://www.tarwaterlab.com/hawaii-vine-project)
+
+# Past positions
+
+-   **Jul. 2023 - Apr. 2024.** Postdoctoral researcher at the Institute of Regional Ecology, UNT-CONICET. **Project:** Control systems for pollination service management in blueberry crops.
+
+# Profile
+
+I am a researcher with a Ph.D. in Biological Sciences and extensive experience in applying rigorous statistical methods to solve real-world problems. My expertise lies in experimental design, Bayesian inference, and causal inference—skills I have successfully applied to design strategies that optimize production and profits in pollinator-dependent crops, such as blueberries. I have a strong publication record, demonstrating my ability to generate robust, reproducible insights suitable for scientific and regulated environments. Currently, I am completing an MBA in Data Science at the University of São Paulo, where I am gaining proficiency in machine learning and AI models. My researcher’s mindset is hypothesis-driven, quantitatively rigorous, and focused on translating complex data into actionable solutions.
+
+\vspace{2mm}
+
+# Technical skills
+-   Experimental design and data collection.
+-   Causal inference.
+-   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models, mixed models), Gaussian process models, time series analysis, structural equation modeling, network analysis, and simulation studies.
+-   Programming languages: R (advanced), Python (intermediate), Stan (intermediate), and SQL (basic).
+-   Machine learning: regression trees, random forests, basic deep learning (in progress via MBA).
+-   Spatial analysis tools: Google Earth Engine (basic), ArcGis (basic) and R packages: *terra*, *raster*, and *sf* (basic).
+-   Other tools: Git and GitHub for version control. RMarkdown and Quarto for report generation.
+
+--------------------------------
+
+# Publication
+
+## Relevant published articles
+
+-   **Ramírez-Mejía A. F.**, Chacoff N., Cavigliasso P., Blendinger P. **(2024)**. How much is enough? Optimizing beehive stocking densities to maximize the production of a pollinator-dependent crop. *Ecological modelling*, vol 498, article number: <https://doi.org/10.1016/j.ecolmodel.2024.110891>.
+-   Monasterologo, M, **Ramírez-Mejía A. F.**, et al. **(2024)**. Animal pollination contributes to more than half of Citrus spp. production despite the species and cultivar. *Scientific reports*, vol 14, Article number: 22309.  <https://www.nature.com/articles/s41598-024-73591-6>.
+-   **Ramírez-Mejía A F**, Chacoff N, Lomáscolo S, Woodcock B, Schmucki R & Blendinger P. **(2024)**. Optimal pollination thresholds to maximize blueberry production. *Agriculture Ecosystems and Environment* <https://doi.org/10.1016/j.agee.2024.108903>
+-   **Ramírez-Mejía A F**, Blendinger P, Woodcock B, Schmucki R, Escobar L, Morton R, Vieli L, Nunes-Silva P, Lomáscolo S, Morales C, Murúa M, Agostini K, & Chacoff N. **(2023)**. Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries. *Journal of Applied Ecology*. DOI: <https://doi.org/10.1111/1365-2664.14553>
+-   **Ramírez-Mejía A F**, Lomáscolo S & Blendinger P. **(2023)** Hummingbirds, honeybees, and wild insect pollinators affect yield and berry quality of blueberries depending on cultivar and farm's spatial context. *Agriculture Ecosystems and Environment*. DOI: <https://doi.org/10.1016/j.agee.2022.108229>
+
+## Other published articles
+
+-   Wolter, J. H., Vissoto, M., **Ramírez‐Mejía, A. F**., Vizentin‐Bugoni, J., & Dias, R. A. **(2026)**. Intrinsic and extrinsic drivers shape frugivore functional diversity within a tree population. Ecosphere, 17(2). https://doi.org/10.1002/ecs2.70453
+-   Gómez-Murillo, L., Vizentin-Bugoni, J., **Ramírez-Mejía, A. F.**, & Tarwater, C. E. **(2026)**. Rainfall alters network structure, while fragmentation results in the breakdown of a mixed-species group of birds. Oecologia, 208(2), 34. https://doi.org/10.1007/s00442-026-05869-7.
+-   Fontanarrosa G., Zarbá L., ... **Ramírez-Mejía A. F.** ... Piquer-Rodríguez M. **(2024)**. Over twenty years of publications in Ecology: Over-contribution of Women reveals a new dimension of gender bias. *PLOS ONE*.  <https://doi.org/10.1371/journal.pone.0307813>
+-   Nunes-Silva Patrícia, **Ramírez-Mejía Andrés F.**, Blochtein B, Ramos J, Agostini K, Vieli L, Santanna M, Raguse-Quadros M, Maureen M., Chacoff N P, Cavigliasso P, Blendinger P G., Domingos S. **(2023)**. Blueberry: pollination and production in South America. ISBN: 978-65-00-65347-2. DOI: <https://doi.org/10.5281/zenodo.7770381>.
+-   Blendinger P G, Rojas T N, **Ramírez-Mejía A F**, Bender I M A, Lomáscolo S, Magro J, Núñez Montellano M G, Ruggera R A, Valoy M & Ordano M. **(2022)** [*Nutrient balance and energy-acquisition effectiveness: do birds adjust their fruit diet to achieve intake targets?*](https://doi.org/10.1111/1365-2435.14164) *Functional Ecology*. DOI: doi.org/10.1111/1365-2435.14164
+-   **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. **(2022)**. [*The interplay of spatial scale and landscape transformation moderates the abundance and intraspecific variation in the ecomorphological traits of a phyllostomid bat*](doi:10.1017/S026646742100047X). *Journal of Tropical Ecology*. 38(1), 31-38. DOI: <https://10.1017/S026646742100047X>
+-   **Ramírez-Mejía A F**, Echeverry-Galvis M A, & Sánchez F. **(2021)**. [*Activity and habitat use by understory birds in a native Andean forest and a eucalypt plantation*](https://doi.org/10.1676/19-54). *Wilson Journal of Ornithology*. 132(3): 721-729. DOI: doi.org/10.1676/19-54
+-   **Ramírez-Mejía A F**, Urbina-Cardona N, & Sánchez F. **(2020)** [*Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis*](https://doi.org/10.1111/btp.12816). *Biotropica*. 52(6): 1168-1182. DOI: <https://doi.org/10.1111/btp.12816>.
+-   **Ramírez-Mejía A F**, & Sánchez F. **(2016)**. [*Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia*](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: <https://doi.org/10.4404/hystrix-27.2-11319>.
+-   **Ramírez-Mejía A F**, & Sánchez F. **(2015)**. [*Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin*](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: <https://dx.doi.org/10.15560/11.2.1582>.
+
+## Accepted articles
+
+-  **Andrés F. Ramírez-Mejía**, Francisco Sánchez, J. Nicolás Urbina-Cardona & Natalia Ladino. Functional divergence drives the prevalence of low-abundance species in bat assemblages. *Journal: Functional Ecology*. **Role: first author**
+
+## Under review
+
+-   **Ramírez-Mejía A. F.**, Mary De Aquino, Michael Castaño Díaz, Juliana Hinz Wolter, Henry S. Pollock, J. Patrick Kelley, Jeferson Vizentin-Bugoni & Corey E. Tarwater. Biotic and abiotic factors directly and indirectly impact the structure of non-trophic networks across a rainfall gradient. *Journal: Ecology*. **Role: first author**
+
+-   Elizabeth J. Howard, **Andrés F. Ramírez-Mejía**, Michael Castaño, Mary De Aquino, Henry S. Pollock, Jefferson Vizentin-Bugoni, and Corey E. Tarwater. Testing long standing assumptions about army ant swarms: how profitability and dominance alter space use in birds. *Journal: Behavioral Ecology* .**Role: coauthor, data analysis**
+
+-  Jordan, Kimberley; **Ramírez-Mejía, Andrés F**.; Wilcox, Rebecca C.; Brawn, Jeffrey ; Alfonso, Camilo; Tarwater, Corey. Testing the space-for-time assumption and the hygric niche hypothesis using precipitation effects on avian body condition. *Journal: Proceedings of the Royal Society B: Biological Sciences*. **Role: coauthor, data analysis**
+
+-   **Andrés F. Ramírez-Mejía**, Corey E. Tarwater, J. Patrick Kelley, Jinelle H. Sperry, Jeffrey T. Foster, Donald R. Drake, and Jeferson Vizentin-Bugoni. Temporal dynamics of seed-dispersal networks: Disentangling the role of direct biotic and abiotic factors and bottom-up processes. *Journal: Ecology*. **Role: first author**
+
+
+## Articles in preparation
+
+-   Mauro Galetti, **Ramírez-Mejía A. F.**, et al. Island Biogeography Shapes Fruit-Frugivore Interactions . **Role: coauthor, data analysis**
+
+-   **Ramírez-Mejía A. F.**, A. Carolina Monmany, Roxana Aragón, Carolina Cuezzo, Natalia Ladino, Natalí Villalba, A. Carolina Jozami, Alberto Slanis, Mariano Lucia, Leopoldo Alvarez & Natacha P. Chacoff. Low opportunity cost areas in large-scale monoculture for pollinator conservatio. **Role: first author**
+
+-   Mary De Aquino1, Henry S. Pollock, J. Patrick Kelley, **Andrés F. Ramírez-Mejía**, Michael Castaño Díaz1, Jeferson Vizentin-Bugoni  & Corey E. Tarwater. Species’ roles, specialization, and the factors that influence roles in mixed-species animal groups. **Role: review**
+
+-  **Andrés F. Ramírez-Mejía**, Corey E. Tarwater, J. Patrick Kelley, Jinelle H. Sperry, Jeffrey T. Foster, Donald R. Drake, and Jeferson Vizentin-Bugoni. Functional divergence structures species roles and pairwise interactions in Hawaiian seed-dispersal networks. Role: **first author**
+
+## Code and online datasets
+
+-   **Ramírez-Mejía, A.F.**; Blendinger, P.G.; Woodcock, B.A.; Schmucki, R.; Chacoff, N.P. (2024). Wild bee associations with blueberry crops in Argentina, 2020-2021. NERC EDS Environmental Information Data Centre. <https://doi.org/10.5285/7756e3fb-0305-48d7-958e-338c02fa33fd>
+
+-   **Ramírez-Mejía A. F.**, Chacoff N., Cavigliasso P., & Blendinger P. (2024). How much is enough? Optimizing beehive stocking densities to maximize the production of a pollinator-dependent crop. *Ecological modelling*, vol 498, article number: <https://doi.org/10.1016/j.ecolmodel.2024.110891>. GitHub repository: <https://github.com/andres-frm/postdoc_cropPol>
+
+-   **Ramírez-Mejía, Andrés F**. (2023). Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries [code]. **Journal of Applied Ecology**. Zenodo. <https://doi.org/10.5281/zenodo.10070657>
+
+-   **Ramírez-Mejía, Andrés F**. et al. (2023). Landscape structure and farming management interacts to modulate pollination supply and crop production in blueberries [Dataset]. **Journal of Applied Ecology**. Dryad. <https://doi.org/10.5061/dryad.bg79cnphc>
+
+-   **Ramírez-Mejía, A F**.; Urbina-Cardona, J N; Sánchez, F (2020). Data from: Functional diversity of phyllostomid bats in an urban-rural landscape: a scale-dependent analysis [Dataset]. **Biotropica**. Dryad. <https://doi.org/10.5061/dryad.sn02v6x1p>
+
+## Theses
+
+**PhD**. 2018 - 2023. The step-by-step of pollination service in blueberry crops: patterns and mechanisms. Thesis advisors: [Pedro G. Blendinger](https://scholar.google.com/citations?user=9oyNtX0AAAAJ&hl=en&oi=ao), PhD; independent research CONICET, assistant professor UNT. [Silvia Lomáscolo](https://scholar.google.com/citations?hl=en&user=r9PAo-QAAAAJ), PhD; assistant researcher CONICET.
+
+**MSc**. 2015 - 2017. Seed dispersion and functional diversity of phyllostomid bats in an anthropogenic landscape: a multi-scale approach. Thesis advisors: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad de los Llanos, Colombia. [J. Nicolás Urbina-Cardona](https://scholar.google.com/citations?user=uMBjaFgAAAAJ&hl=en), PhD; Pontificia Universidad Javeriana, Colombia.
+
+**BSc**. 2008 - 2014. Activity patterns, habitat use, and mammals richness in native and reforested forests at the Colombian Andes. Thesis advisor: [Francisco Sánchez](https://scholar.google.com/citations?user=6MC0Yx8AAAAJ&hl=en), PhD; Universidad Militar Nueva Granada, Cundinamarca, Colombia.
+
+-----------------------------
+
+# Fellowships 
+
+-   **2023**. Postdoctoral fellowship financed by CONICET, Argentina. RESOL‐2023‐1026‐APN‐DIR#CONICET.
+
+-   **2017**. PhD fellowship financed by CONICET, Argentina. N° 4122. Thesis: Plant-animal interaction in blueberry crops (*Vaccinium corymbosum*, Ericaceae) and indirect effect with the Yungas forest.
+
+
+# Distinctions
+
+```{r, results='asis'}
+
+tribble(
+  ~year, ~award,
+  2017, 'Academic merit award. During MSc degree at Pontifical Javeriana University',
+  2017, 'Graduated with honors CUM LAUDE. During MSc degree at Pontifical Javeriana University',
+  2017, 'MSc thesis with honorary mention. During MSc degree at Pontifical Javeriana University'
+) |> 
+  baretable()
+
+```
+
+
+# Teaching experience
+
+```{r docente, results='asis'}
+tribble(
+  ~curse, ~institution, ~level, ~year,
+  "R programming", "Universidade Federal de Pelotas", "graduate",  2024, 
+  "Data Clinic", "National University of Tucumán", "graduate",  2021, 
+  "Introduction to R programming", "National University of Tucumán", "undergraduate", 2019
+) |> 
+  mutate(
+    curse_level = paste(curse, paste('(Level: ', level, ')', sep = ''), sep = ' ')
+  ) |> 
+  select(year, curse_level, institution) |> 
+  baretable()
+
+```
+
+# Graduate courses
+
+```{r cursos_posgrado, results='asis'}
+
+tribble(
+  ~year, ~course, ~institution, ~hours, ~country,
+  2023, 'Google Earth Engine', 'REDES Center (CONICET)', 60, 'Argentina',
+  2022, 'Introduction to Bayesian statistics methods in ecology', 'University of Buenos Aires', 45, 'Argentina',
+  2022, 'Ecosystem services: concepts, tools and perspectives', 'National University of Cuyo', 45, 'Argentina',
+  2022, 'Data science with Python', 'National University of Southern Patagonia', 40, 'Argentina',
+  2021, 'Models and data in ecology', 'National University of Comahue', 40, 'Argentina',
+  2021, 'Statistical tools for addressing gender metrics', 'National University of Tucumán', 40, 'Argentina',
+  2020, 'Ecological networks', 'University of São Paulo', 60, 'Brazil',
+  2019, 'Pollination Ecology', 'National University of Comahue', 60, 'Argentina',
+  2019, '13° International Pollination Course', 'Federal University of Jequitinhonha Valleys', 98, 'Brazil',
+  2019, 'Advanced statistical methods in ecology and evolution', 'University of the Uruguay Republic', 60, 'Uruguay',
+  2018, 'Advanced statistical models using programming language R', 'National University of Córdoba', 40, 'Argentina'
+) |> 
+  mutate(h = paste(hours, 'h', sep = '')) |> 
+  select(year, course, institution, h, country) |> 
+  baretable()
+  
+```
+
+
+# Languages
+-   Spanish
+-   English
+-   Portuguese
+
