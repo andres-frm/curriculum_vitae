@@ -174,7 +174,6 @@ Soy un ecólogo interesado en entender cómo las interacciones entre especies y 
 
 -   **2017**. Beca doctoral otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Resolución N° 4122. Plan de tesis: Interacciones planta‐animal en cultivos de arándanos (*Vaccinium corymbosum*, Ericaceae) y efectos recíprocos con el bosque nativo de Yungas. Año de inicio: 2018.
 
-# Subsidios de investigación
 
 ```{r results='asis', echo=FALSE, eval=FALSE}
 
