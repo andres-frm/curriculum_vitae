@@ -88,7 +88,7 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 -   Experimental design and data collection.
 -   Causal inference.
 -   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), Gaussian process models, time series analysis, structural equation modeling, network analysis, and simulation studies.
--   Programming languages: R (advanced), Python (basic) and Stan (basic).
+-   Programming languages: R (advanced), Python (intermediate) and Stan (intermediate).
 -   Spatial analysis tools: Google Earth Engine (basic), ArcGis (basic) and R packages: *terra*, *raster*, and *sf* (basic).
 -   Other tools: Git and GitHub for version control. RMarkdown and Quarto for report generation.
 
@@ -98,9 +98,10 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 
 ## Published articles
 
--   **Ramírez-Mejía, A. F.**, Sánchez, F., Urbina-Cardona, J. N., & Ladino, N. **(2026)**. Functional divergence drives the prevalence of low-abundance species in bat assemblages. Functional Ecology, 00, 1–16. https://doi.org/10.1111/1365-2435.70333
+-   **Ramírez-Mejía, A. F.**, Sánchez, F., Urbina-Cardona, J. N., & Ladino, N. **(2026)**. Functional divergence drives the prevalence of low-abundance species in bat assemblages. Functional Ecology, 00, 1–16. <https://doi.org/10.1111/1365-2435.70333>
 -   Wolter, J. H., Vissoto, M., **Ramírez‐Mejía, A. F**., Vizentin‐Bugoni, J., & Dias, R. A. **(2026)**. Intrinsic and extrinsic drivers shape frugivore functional diversity within a tree population. Ecosphere, 17(2). https://doi.org/10.1002/ecs2.70453
 -   Gómez-Murillo, L., Vizentin-Bugoni, J., **Ramírez-Mejía, A. F.**, & Tarwater, C. E. **(2026)**. Rainfall alters network structure, while fragmentation results in the breakdown of a mixed-species group of birds. Oecologia, 208(2), 34. https://doi.org/10.1007/s00442-026-05869-7.
+-   Chacoff, N., Monmany-Garzia, A. C., **Ramírez-Mejía, A. F.**, Castillo, S., Aragón, R. Hacia una agricultura sustentable: ¿Por qué nos importa la biodiversidad? In: Brown, A., & Sánchez, E. Argentina Sustentable: El Norte Grande. 1. ed. Yerba Buena, Argentina: Ediciones Del Subtrópico, 2025. p. 472-476. **ISBN 978-631-90041-4-4**.
 -   **Ramírez-Mejía A. F.**, Chacoff N., Cavigliasso P., Blendinger P. **(2024)**. How much is enough? Optimizing beehive stocking densities to maximize the production of a pollinator-dependent crop. *Ecological modelling*, vol 498, article number: <https://doi.org/10.1016/j.ecolmodel.2024.110891>.
 -   Monasterologo, M, **Ramírez-Mejía A. F.**, et al. **(2024)**. Animal pollination contributes to more than half of Citrus spp. production despite the species and cultivar. *Scientific reports*, vol 14, Article number: 22309.  <https://www.nature.com/articles/s41598-024-73591-6>.
 -   Fontanarrosa G., Zarbá L., ... **Ramírez-Mejía A. F.** ... Piquer-Rodríguez M. **(2024)**. Over twenty years of publications in Ecology: Over-contribution of Women reveals a new dimension of gender bias. *PLOS ONE*.  <https://doi.org/10.1371/journal.pone.0307813>
@@ -115,6 +116,9 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 -   **Ramírez-Mejía A F**, & Sánchez F. **(2016)**. [*Activity patterns and habitat use of mammals in an Andean forest and a Eucalyptus reforestation in Colombia*](http://doi.org/10.4404/hystrix-27.2-11319). *Hystrix, the Italian Journal of Mammalogy*, 27(2): 104-110. DOI: <https://doi.org/10.4404/hystrix-27.2-11319>.
 -   **Ramírez-Mejía A F**, & Sánchez F. **(2015)**. [*Non-volant mammals in a protected area on the Central Andes of Colombia: new records for the Caldas department and the Chinchiná River basin*](http://dx.doi.org/10.15560/11.2.1582). *Check List*, 11(2):1-6, Article 1582. DOI: <https://dx.doi.org/10.15560/11.2.1582>.
 
+## Accepted
+
+-   Pulido-Guarín, H., Monmany-Garzia, A. C., Scannapieco, A., **Ramírez-Mejía, A. F.**, Geria, M., Galindo-Cardona, A. Three methods for measuring the Earth's magnetic field intensity in Apis mellifera drone congregation areas. *Environmental Entomology*.
 
 ## Under review
 
@@ -126,14 +130,14 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 
 -   **Andrés F. Ramírez-Mejía**, Corey E. Tarwater, J. Patrick Kelley, Jinelle H. Sperry, Jeffrey T. Foster, Donald R. Drake, and Jeferson Vizentin-Bugoni. Temporal dynamics of seed-dispersal networks: Disentangling the role of direct biotic and abiotic factors and bottom-up processes. *Journal: Ecology*. **Role: first author**
 
+-   Mary De Aquino1, Henry S. Pollock, J. Patrick Kelley, **Andrés F. Ramírez-Mejía**, Michael Castaño Díaz1, Jeferson Vizentin-Bugoni  & Corey E. Tarwater. Species’ roles, specialization, and the factors that influence roles in mixed-species animal groups. **Journal of Animal Ecology**. **Role: review**
+
 
 ## Articles in preparation
 
 -   Mauro Galetti, **Ramírez-Mejía A. F.**, et al. Island Biogeography Shapes Fruit-Frugivore Interactions . **Role: coauthor, data analysis**
 
 -   **Ramírez-Mejía A. F.**, A. Carolina Monmany, Roxana Aragón, Carolina Cuezzo, Natalia Ladino, Natalí Villalba, A. Carolina Jozami, Alberto Slanis, Mariano Lucia, Leopoldo Alvarez & Natacha P. Chacoff. Low opportunity cost areas in large-scale monoculture for pollinator conservatio. **Role: first author**
-
--   Mary De Aquino1, Henry S. Pollock, J. Patrick Kelley, **Andrés F. Ramírez-Mejía**, Michael Castaño Díaz1, Jeferson Vizentin-Bugoni  & Corey E. Tarwater. Species’ roles, specialization, and the factors that influence roles in mixed-species animal groups. **Role: review**
 
 -  **Andrés F. Ramírez-Mejía**, Corey E. Tarwater, J. Patrick Kelley, Jinelle H. Sperry, Jeffrey T. Foster, Donald R. Drake, and Jeferson Vizentin-Bugoni. Functional divergence structures species roles and pairwise interactions in Hawaiian seed-dispersal networks. Role: **first author**
 
