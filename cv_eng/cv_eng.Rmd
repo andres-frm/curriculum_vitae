@@ -86,8 +86,8 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 
 # Technical skills
 -   Experimental design and data collection.
--   Causal inference.
--   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), Gaussian process models, time series analysis, structural equation modeling, network analysis, and simulation studies.
+-   Causal inference (Pearl framework).
+-   Data analysis: frequentist and Bayesian statistics (lm, glm, glmm, hierarchical models), Gaussian process models, time series analysis, structural equation modeling, Bayesian networks, network analysis, and simulation studies.
 -   Programming languages: R (advanced), Python (intermediate) and Stan (intermediate).
 -   Spatial analysis tools: Google Earth Engine (basic), ArcGis (basic) and R packages: *terra*, *raster*, and *sf* (basic).
 -   Other tools: Git and GitHub for version control. RMarkdown and Quarto for report generation.
