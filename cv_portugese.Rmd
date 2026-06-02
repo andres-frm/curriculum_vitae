@@ -98,6 +98,7 @@ Sou um ecólogo interessado em entender como as interações entre espécies e a
 
 ## Artigos publicados
 
+-   Harold Pulido-Guarín, Ana Carolina Monmany-Garzia, Alejandra Carla Scannapieco, **Ramírez-Mejía A. F.**, Martín Geria, Alberto Galindo-Cardona, Three methods for measuring the Earth’s magnetic field intensity in Apis mellifera (Hymenoptera: Apidae) drone congregation areas, Environmental Entomology, Volume 55, Issue 3, June 2026, nvag056, https://doi.org/10.1093/ee/nvag056
 -   **Ramírez-Mejía, A. F.**, Sánchez, F., Urbina-Cardona, J. N., & Ladino, N. **(2026)**. Functional divergence drives the prevalence of low-abundance species in bat assemblages. Functional Ecology, 00, 1–16. <https://doi.org/10.1111/1365-2435.70333>
 -   Wolter, J. H., Vissoto, M., **Ramírez‐Mejía, A. F**., Vizentin‐Bugoni, J., & Dias, R. A. **(2026)**. Intrinsic and extrinsic drivers shape frugivore functional diversity within a tree population. Ecosphere, 17(2). https://doi.org/10.1002/ecs2.70453
 -   Gómez-Murillo, L., Vizentin-Bugoni, J., **Ramírez-Mejía, A. F.**, & Tarwater, C. E. **(2026)**. Rainfall alters network structure, while fragmentation results in the breakdown of a mixed-species group of birds. Oecologia, 208(2), 34. https://doi.org/10.1007/s00442-026-05869-7.
@@ -118,7 +119,6 @@ Sou um ecólogo interessado em entender como as interações entre espécies e a
 
 ## Aceitos
 
--   Pulido-Guarín, H., Monmany-Garzia, A. C., Scannapieco, A., **Ramírez-Mejía, A. F.**, Geria, M., Galindo-Cardona, A. Three methods for measuring the Earth's magnetic field intensity in Apis mellifera drone congregation areas. *Environmental Entomology*.
 
 ## Em revisão
 
