@@ -81,8 +81,6 @@ I am an ecologist with a deep curiosity for understanding how species interactio
 -   Ecosystem services
 -   Community ecology
 -   Functional diversity
--   R programming
--   Bayesian statistics
 
 # Technical skills
 -   Experimental design and data collection.
